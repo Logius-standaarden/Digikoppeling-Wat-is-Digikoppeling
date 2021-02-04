@@ -25,10 +25,10 @@ var respecConfig = {
   specType: "HR",
 
   // subtitle will be shown below title, can be omitted 
-  subtitle: "Hier komt een subtitle",
+  // subtitle: "Hier komt een subtitle",
 
   // The specification's "short name", which is the name used in NL_Respec URLs
-  shortName: "digikoppeling",
+  shortName: "watisdk",
 
   // A YYYY-MM-DD date. The publication date of the present document. 
   // Als er geen publishDate is opgegeven, genereert ReSpec de dataum o.b.v. de laatste wijzigingen
@@ -115,6 +115,10 @@ var respecConfig = {
   // For Consultatieversies (specStatus="GN-CV") there is a default text in the section "Status of this document" that contains an emailaddress for feedback and comments on the document.
   nl_emailComments: "digikoppeling@logius.nl",
 
+  // this parameter will add the tag_name of the latest release to the document Title
+  // only set this parameter when a release has been set
+  nl_addReleaseTagTitle: true,
+
   // if you use a single document for your spec, which uses more than one markdown H1 header, e.g. '# inleiding'
   // this configuration can be set to make sure that the alle H1 headers and navigation bars are preserved
   nl_markdownSplitH1sections: true,
@@ -123,9 +127,9 @@ var respecConfig = {
   // thi scan be configured below
   // if not set, the url's will be generated on the respecConfig.github automatically  
   nl_github: {
-//    issueBase: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/issues",
+    //    issueBase: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/issues",
     revision: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/commits",
-  //  pullrequests: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/pulls"
+    //  pullrequests: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling/pulls"
   },
 
   // nl_organisationName is used for some company specific values in the header (and Sotd)
@@ -221,7 +225,7 @@ var respecConfig = {
       publisher: "Logius",
     },
 
-  
+
 
   }
 };
