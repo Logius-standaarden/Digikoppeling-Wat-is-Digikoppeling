@@ -111,6 +111,7 @@ var respecConfig = {
   // The specification's publish domain, which is used to publish the specification
   // the url in the header thisVersion is generated like `<conf.nl_organisationPublishURL>/<conf.pubDomain>/<specStatus>-<specType.toLowerCase()>-<conf.shortName>}-conf.publishDate>/`
   pubDomain: "dk",
+  pubSubDomain: "watisdk",
 
   // For Consultatieversies (specStatus="GN-CV") there is a default text in the section "Status of this document" that contains an emailaddress for feedback and comments on the document.
   nl_emailComments: "digikoppeling@logius.nl",
