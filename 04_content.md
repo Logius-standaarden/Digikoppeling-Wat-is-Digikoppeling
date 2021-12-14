@@ -1,9 +1,9 @@
 # Inleiding
-## Doel en scope 
+## Doel en scope
 
 Dit document is bedoeld om een algemene toelichting te geven over Digikoppeling en het gebruik ervan.
 
-## Leeswijzer 
+## Leeswijzer
 
 In de volgende hoofdstukken wordt antwoord gegeven op de vragen:
 
@@ -219,7 +219,7 @@ Ook andere organisaties, zoals private organisaties, kunnen baat hebben bij gebr
 
 Digikoppeling onderscheidt twee hoofdvormen van uitwisseling, te weten bevragingen en meldingen.
 
-### Bevragingen 
+### Bevragingen
 
 Betreft het stellen van een vraag en vervolgens het ontvangen van een antwoord. Een serviceafnemer<sup>4</sup> is de initiator van een bevraging. Zie Figuur 4.
 
@@ -257,18 +257,18 @@ Onderstaand kader geeft een verdere toelichting op de twee hoofdvormen van beric
 
 Doelgroep van dit kader is gericht op medewerkers die een taak hebben in het analyseren en ontwerpen (design) [A&D] danwel het ontwikkelen, testen en beheren [OT&B].
 
-*Bevragingen*  
+#### Bevragingen
+
 Een vraag-antwoord (“request-response”) noemen we een bevraging. De vragende partij stuurt een voorgedefinieerde vraag (request) aan de serviceaanbieder, die een antwoord (response) verstrekt. Het initiatief ligt bij de serviceafnemer.
 
 Digikoppeling-bevragingen zijn synchroon: het vragende informatiesysteem wacht op een antwoord. Dit wachten heeft een beperkte duur (time-out). Als een (tijdig) antwoord uitblijft moet de vrager besluiten of hij de vraag opnieuw stelt of niet. De snelheid van afleveren is hier vaak belangrijker dan een betrouwbare aflevering.
 
-*Meldingen en mutaties*
-
+#### Meldingen en mutaties
 Betrouwbare berichten (”reliable messaging”) noemen we een melding. Bij betrouwbare berichten (melding) verstuurt de verzender een betrouwbaar bericht (melding) naar de ontvangende partij (ontvanger) en wacht op een ontvangstbevestiging.
 
 Een melding is een enkelvoudig bericht. Het gebruikte protocol regelt de betrouwbare ontvangst en de onweerlegbaarheid (non-repudiation) van een bericht. Bij meldingen is de betrouwbare aflevering van het bericht essentieel. Als een partij het bericht niet direct kan aannemen, voorzien de protocollen erin dat het bericht nogmaals wordt aangeboden.
 
-*Grote berichten (GB)*
+#### Grote berichten (GB)
 
 De situatie kan zich voordoen dat een bericht een omvang krijgt die niet meer efficiënt door de Digikoppeling-adapters of achterliggende systemen verwerkt kan worden, bijvoorbeeld vanwege de overhead bij eventuele hertransmissies. Ook kan het voorkomen dat er behoefte bestaat aan het sturen van aanvullende informatie naar systemen buiten de normale procesgang ('out-of-band'). In die gevallen zal dit grote bestand op een andere wijze uitgewisseld moeten worden: middels de Digikoppeling Koppelvlakstandaard Grote Berichten.
 
@@ -294,7 +294,7 @@ Digikoppeling Grote Berichten kent verschillende toepassingsvormen. De best-prac
 
 ## Inleiding koppelvlakstandaard ebMS2
 
-### Achtergrond: ebMS familie van standaarden 
+### Achtergrond: ebMS familie van standaarden
 
 Digikoppeling maakt gebruik van een familie van standaarden die we “ebMS2” noemen. Deze familie van standaarden is gebaseerd op web-service standaarden uit de profielen van de OASIS “ebXML Messaging Services“ Technical Committie (ebMS).
 
@@ -302,7 +302,7 @@ Kenmerkend voor de ebMS2-standaarden die voortkomen uit de EDIFACT-wereld is de 
 
 <sup>7</sup>: Collaboration Protocol Agreement: Servicecontract voor ebMS services.
 
-### ebMS2 voor meldingen 
+### ebMS2 voor meldingen
 
 De Digikoppeling koppelvlakstandaard ebMS2 (KVS ebMS2) ondersteunt het uitvoeren van meldingen<sup>8</sup> tussen geautomatiseerde informatiesystemen. Het protocol regelt de betrouwbare ontvangst van een bericht en eventueel de onweerlegbaarheid (non-repudiation) in de vorm van een ondertekende ontvangstbevestiging. Hoewel Digikoppeling-meldingen (op de logistieke laag) asynchroon<sup>9</sup> zijn kan de business-laag wel synchroon<sup>10</sup> werken als de verzender wacht op een retour-melding.
 
@@ -354,7 +354,7 @@ De KVS ebMS2 regelt de volgende functionaliteiten voor meldingen:
 
 Een CPA is een formeel xml-document om de gebruikte functionele en technische eigenschappen van de ebMS2 protocol-karakteristieken vast te leggen. Het is dus een formele beschrijving voor het uniform instellen van de gegevensuitwisseling. Een CPA moet worden gecreëerd als twee partijen afspreken om van elkaars ebMS2 services gebruik te maken. Beide partijen moeten de CPA importeren in hun Digikoppeling-adapter om deze te configureren voor de berichtuitwisseling. De wijze waarop een CPA wordt toegepast staat beschreven in Digikoppeling Best Practices ebMS2. Het CPA register ondersteunt partijen in het creëren van een CPA.
 
-### ebMS2 voor vragen met een uitgesteld antwoord 
+### ebMS2 voor vragen met een uitgesteld antwoord
 
 In sommige sectoren wordt een vraag verstuurd met ebMS2 en komt het (uitgestelde) antwoord ook via ebMS2 retour. Deze vorm van uitwisseling is asynchroon en voldoet dus niet aan de definitie voor bevragingen, omdat een bevraging synchroon is. Digikoppeling biedt hiervoor meldingen (ook ingeval van WUS). Bij dit type gebruik is de betrouwbaarheid eigenlijk overbodig. Het ebMS2 best effort profiel van de koppelvlakstandaard ebMS2 kan ook voor dit type vragen met uitgestelde antwoorden worden gebruikt, als partijen dit onderling afspreken. Dit gebruik wordt niet op landelijk of intersectoraal niveau toegestaan en is dus uitsluitend optioneel binnen sectoren.
 
@@ -364,15 +364,15 @@ In sommige sectoren wordt een vraag verstuurd met ebMS2 en komt het (uitgestelde
 | Best practices ebMS2 | Digikoppeling_Best_Practices\_ebMS2 | [OT&B] |
 | Handleiding CPA register | CPA\_register | [A&D] [OT&B] |
 
-## Inleiding koppelvlakstandaard WUS 
+## Inleiding koppelvlakstandaard WUS
 
-### Achtergrond: WUS familie van standaarden 
+### Achtergrond: WUS familie van standaarden
 
 Digikoppeling maakt gebruik van een familie van standaarden die we binnen Digikoppeling de naam “WUS” geven. Deze familie van standaarden is gebaseerd op web-service standaarden uit de profielen van de OASIS “Web Services – Basic Reliable and Secure Profiles” Technical Committie (WS-BRSP). De naam WUS staat voor WSDL, UDDI en SOAP, drie belangrijke deelstandaarden. Hoewel Digikoppeling geen gebruik van UDDI maakt is deze term inmiddels gebruikelijk.
 
 Kenmerkend voor de WUS-standaarden die voortkomen uit de Internet-wereld is de 1-op-n relatie tussen service aanbieder en meerdere service afnemers. Dit betekent bijvoorbeeld dat een WUS service één WSDL heeft die door alle afnemers kan worden gebruikt.
 
-### WUS voor bevragingen 
+### WUS voor bevragingen
 
 De Digikoppeling-koppelvlakstandaard WUS (KVS WUS) ondersteunt het uitvoeren van bevragingen<sup>14</sup> tussen geautomatiseerde informatiesystemen. De KVS WUS biedt de volgende functionaliteiten voor bevragingen:
 
@@ -394,9 +394,7 @@ De Digikoppeling-koppelvlakstandaard WUS (KVS WUS) ondersteunt het uitvoeren van
 
 - Foutmeldingen.
 
-### 
-
-### WSDL 
+### WSDL
 
 Een WSDL is een formeel xml-document om de gebruikte functionele en technische eigenschappen van de berichtuitwisseling via WUS vast te leggen. Elke service heeft één WSDL, die door de serviceaanbieder wordt opgesteld. Deze is door alle afnemers te gebruiken. Door importeren van de WSDL in de Digikoppeling-adapter van een afnemer wordt de berichtuitwisseling geconfigureerd.
 
@@ -407,7 +405,7 @@ De wijze waarop een WSDL wordt toegepast staat beschreven in Digikoppeling Best 
 | Inhoudelijke beschrijving KVS WUS Digikoppeling (huidige standaard) | Digikoppeling_Koppelvlakstandaard_WUS  | [A&D] [OT&B] |
 | Best practices Digikoppeling WUS | Digikoppeling_Best_Practices_WUS | [OT&B] |
 
-## Inleiding koppelvlakstandaard Grote berichten 
+## Inleiding koppelvlakstandaard Grote berichten
 
 ### Werking grote berichten
 
@@ -427,7 +425,7 @@ Een belangrijk voordeel hiervan is dat het grootste deel (het grote bestand zelf
 
 De standaard doet geen uitspraak over gegevensstromen waarin kleine en grote berichten voorkomen. Bij implementatie van dergelijke gegevensstromen zal een organisatie moeten afwegen of kleine berichten anders of gelijk aan de ‘echte’ grote berichten verwerkt worden. In z’n algemeenheid zal een uniforme afhandeling eenduidiger en vooral ook eenvoudiger zijn; slechts in bijzondere gevallen zal dit niet volstaan.
 
-### Standaarden voor grote berichten 
+### Standaarden voor grote berichten
 
 De Digikoppeling Koppelvlakstandaard Grote Berichten (KVS GB) maakt gebruik van WUS en ebMS2 voor het verzenden van metadata. Voor ophalen van het grote bestand maakt de standaard gebruik van HTTPS-downloads. Daardoor zijn reliability en security gelijkwaardig aan WUS en ebMS2. Ook is het gebruik van transparante intermediairs mogelijk. De KVS GB regelt de volgende functionaliteiten voor meldingen of bevragingen, in aanvulling op WUS of ebMS2:
 
@@ -477,11 +475,11 @@ De Digikoppeling-keten bestaat uit:
 
 - Componenten die de Digikoppeling-keten vormgeven.
 
-### Partijen 
+### Partijen
 
 Een partij is een (publieke) organisatie die gegevensdiensten via Digikoppeling aanbiedt aan andere organisaties en/of afneemt van andere organisaties. Een partij (in de rol van serviceafnemer of serviceaanbieder) is tevens het eindpunt van de Digikoppeling-keten. Partijen maken onderling of via een intermediair afspraken over de samenwerking en over de gegevensuitwisseling. De uitwisseling tussen een serviceaanbieder en een serviceafnemer moet altijd betrouwbaar / vertrouwd zijn, ondanks of dankzij de betrokkenheid van intermediairs.
 
-### Intermediairs 
+### Intermediairs
 
 Een intermediair is een organisatie die tussen twee (of meer) partijen berichten via Digikoppeling ontvangt en routeert, zie Figuur 6. Een intermediair kan dienen als sectoraal knooppunt, waarbij de intermediair meerdere partijen in een samenwerkingsverband ontzorgt en ondersteunt.
 
@@ -538,7 +536,7 @@ In het eenvoudigste ‘patroon’ gebruiken de serviceaanbieder en serviceafneme
 
 ![Bilaterale uitwisseling](media/bilaterale_uitwisseling.png "Bilaterale uitwisseling")
 
-### Bilaterale uitwisseling via een transparante intermediair 
+### Bilaterale uitwisseling via een transparante intermediair
 
 Een transparante keten<sup>18</sup> is alleen mogelijk als zowel de serviceaanbieder als de serviceafnemer hetzelfde protocol hanteren. De intermediair routeert berichten tussen de serviceaanbieder en de serviceafnemer waarbij het bericht intact blijft (alleen de ‘header’, ofwel adresregel op de envelop, wordt gelezen). De uitwisseling verloopt op dezelfde manier als bij een bilaterale uitwisseling. Zie Figuur 8.
 
@@ -556,42 +554,26 @@ Onderstaande Figuur 9 wordt toegelicht aan de hand van de rode kaders. De figuur
 
 ![De Stelselvoorzieningen](media/de_stelselvoorzieningen.png "De Stelselvoorzieningen")
 
-1. Basisregistraties: Het Stelsel van Basisregistraties speelt een belangrijke rol in de gegevenshuishouding van de overheid. Het stelsel omvat 11 basisregistraties voor het verzamelen en ontsluiten van kwalitatief goede gegevens op het gebied van o.a. personen, bedrijven, gebouwen, onroerende zaken, geografische basiskaarten en adressen. Vier Stelselvoorzieningen ondersteunen de basisregistraties om hun product- en dienstenportfolio’s eenduidig te (gaan) ontsluiten naar de afnemers.
-
-In de Basisregistraties zitten de zogenaamde basisgegevens, die de spil vormen voor meervoudig gebruik van gegevens binnen de overheid. Door het eenmalig verzamelen van gegevens worden niet alleen de administratieve lasten voor burgers en bedrijven beperkt, maar worden tegelijkertijd forse kwaliteitsverbeteringen en kostenbesparingen voor de overheid zelf gerealiseerd.
-
-**De Basisregistraties:**
-
-BRP - Basisadministratie persoonsgegevens
-
-NHR - Nieuwe Handelsregister
-
-BAG - Basisregistraties Adressen en Gebouwen (bestaat uit twee basisregistraties)
-
-BRT - Basisregistratie Topografie
-
-BRK - Basisregistratie Kadaster
-
-BRV - Basisregistratie Voertuigen (kentekenregister)
-
-BRI - Basisregistratie Inkomen
-
-WOZ - Basisregistratie Waardering Onroerende Zaken
-
-BGT - Basisregistratie Grootschalige Topografie (voorheen GBKN)
-
-BRO - Basisregistratie Ondergrond (voorheen ook wel DINO)
-
+1. Basisregistraties: Het Stelsel van Basisregistraties speelt een belangrijke rol in de gegevenshuishouding van de overheid. Het stelsel omvat 11 basisregistraties voor het verzamelen en ontsluiten van kwalitatief goede gegevens op het gebied van o.a. personen, bedrijven, gebouwen, onroerende zaken, geografische basiskaarten en adressen. Vier Stelselvoorzieningen ondersteunen de basisregistraties om hun product- en dienstenportfolio’s eenduidig te (gaan) ontsluiten naar de afnemers.<br>
+In de Basisregistraties zitten de zogenaamde basisgegevens, die de spil vormen voor meervoudig gebruik van gegevens binnen de overheid. Door het eenmalig verzamelen van gegevens worden niet alleen de administratieve lasten voor burgers en bedrijven beperkt, maar worden tegelijkertijd forse kwaliteitsverbeteringen en kostenbesparingen voor de overheid zelf gerealiseerd.<br>
+De Basisregistraties:<br>
+BRP - Basisadministratie persoonsgegevens<br>
+NHR - Nieuwe Handelsregister<br>
+BAG - Basisregistraties Adressen en Gebouwen (bestaat uit twee basisregistraties)<br>
+BRT - Basisregistratie Topografie<br>
+BRK - Basisregistratie Kadaster<br>
+BRV - Basisregistratie Voertuigen (kentekenregister)<br>
+BRI - Basisregistratie Inkomen<br>
+WOZ - Basisregistratie Waardering Onroerende Zaken<br>
+BGT - Basisregistratie Grootschalige Topografie (voorheen GBKN)<br>
+BRO - Basisregistratie Ondergrond (voorheen ook wel DINO)<br>
 Het aansluiten van de registraties is een succesbepalende factor aangezien de afnemers daarna gaan volgen.
 
 2. Afnemers: Organisaties met een publieke taak die gegevens uitwisselen met bijvoorbeeld de basisregistraties.
 
-3. Stelselvoorzieningen: Naast de basisregistraties bevat het Stelsel nog een aantal generieke voorzieningen, hiervan vormt Digikoppeling de basis voor het aansluiten op de Stelselvoorzieningen. Deze voorzieningen ondersteunen bij de berichtuitwisseling tussen basisregistraties en hun afnemers.
-
-Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgenomen (muv Digikoppeling):
-
+3. Stelselvoorzieningen: Naast de basisregistraties bevat het Stelsel nog een aantal generieke voorzieningen, hiervan vormt Digikoppeling de basis voor het aansluiten op de Stelselvoorzieningen. Deze voorzieningen ondersteunen bij de berichtuitwisseling tussen basisregistraties en hun afnemers.<br>
+Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgenomen (muv Digikoppeling):<br>
 - Digimelding: Basisregistraties moeten zo betrouwbaar mogelijk zijn. Gebruikers maken daarom melding van mogelijk onjuiste gegevens. Het huidige Digimelding portaal versie is een centraal punt voor het melden van onjuistheden aan basisregistraties.
-
 - Digilevering: Digilevering verzorgt de berichtgeving over gebeurtenissen van basisregistraties naar alle afnemers die daar, middels hun abonnement, recht op hebben. Digilevering is de voorziening die ervoor zorgt dat dit op een uniforme, betrouwbare en efficiënte manier gebeurt. Gemeenten, provincies, waterschappen en uitvoeringsorganisaties, die aansluiten, krijgen met één aansluiting op Digilevering berichten over wijzigingen die zich voordoen in de verschillende basisregistraties.
 
 4. Meta-informatie: Twee voorzieningen leveren informatie over de diensten en gegevens van de basisregistraties. De Stelselcatalogus is een online catalogus die de structuur van het Stelsel van Basisregistraties en de definities van begrippen, (authentieke) gegevens en feiten beschrijft. Met die informatie kunnen gebruikers gegevens uit de basisregistratie(s) eenvoudig inpassen in hun eigen werkprocessen. Het Serviceregister biedt een overzicht van alle diensten die worden aangeboden op basis van Digikoppeling, waaronder dus de basisregistraties.
@@ -682,7 +664,7 @@ Versie 2.0 is ‘backwards compatible’: organisaties die versie 1.0 gebruiken 
 
 Digikoppeling 2.0 is in 2013 door het College Standaardisatie opgenomen op de ‘Pas toe of leg uit’-lijst van standaarden. Omdat versie 2.0 backwards compatible is, voldoen implementaties van Digikoppeling 1.0 nog steeds aan die lijst.
 
-### Digikoppeling 3.0 
+### Digikoppeling 3.0
 
 Er waren in versie 3.0 geen wijzigingen in de koppelvlakstandaarden van ebMS2 en van grote berichten.
 
@@ -754,7 +736,7 @@ De Digikoppeling standaarden zijn beschreven op technologie-onafhankelijke wijze
 
 Leveranciers kunnen een volledig geconfigureerde digikoppeling oplossing leveren die in uw bestaande ICT-infrastructuur geinstalleerd wordt. Uw huidige backoffice systemen worden hierop aangesloten, waarmee u voldoet aan de Digikoppeling-standaard. Dit is ook mogelijk voor samenwerkingsverbanden en shared service centra’s. Op basis van de installatie van één digikoppeling oplossing kunnen meerdere gemeenten aangesloten worden. Een andere oplossing is het gebruik van SaaS, waarbij een online dienst wordt aangeboden. De organisatie hoeft de software dan niet aan te schaffen, maar sluit een contract af voor een vast bedrag per maand of per aantal berichten voor het gebruik. De SaaS provider zorgt voor installatie, onderhoud en beheer, de organisatie benadert (als gebruiker) de software over het internet bij de SaaS provider.
 
-### Wat kan van een leverancier verwacht worden om minimaal te leveren? 
+### Wat kan van een leverancier verwacht worden om minimaal te leveren?
 
 Dit is natuurlijk afhankelijk van de afspraken tussen de leverancier en de organisatie. Van een leverancier die een Digikoppeling adapter levert mag verwacht worden dat zij de adapter:
 
