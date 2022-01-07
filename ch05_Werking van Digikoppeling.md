@@ -12,7 +12,7 @@ Betreft het stellen van een vraag en vervolgens het ontvangen van een antwoord. 
 
 Voorbeeld in een dagelijkse situatie: Het opvragen van het banksaldo via internetbankieren is een bevraging. De bank zal na ontvangst van de vraag om het saldo van de rekening in te zien een antwoord teruggeven.
 
-![Berichtuitwisseling bij Bevragingen](media/berichtuitwisseling_bij_bevragingen.png "Berichtuitwisseling bij Bevragingen")
+![Bij een Digikoppeling bevragingen stuurt een serviceafnemer een bevraging naar een serviceaanbieder en krijgt een antwoord terug.](media/berichtuitwisseling_bij_bevragingen.png "Berichtuitwisseling bij Bevragingen")
 
 Bevragingen worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS. Partijen hanteren dezelfde koppelvlakstandaard (WUS). Voor een bevraging is vereist dat de service op het moment van bevraging beschikbaar is. Er is sprake van een “best effort” want een antwoord op een bevraging kan bewust of om technische redenen niet altijd plaatsvinden. Bevragingen kunnen rechtstreeks of via een intermediair verlopen. Meer informatie, zie §5.3.
 
@@ -24,7 +24,7 @@ Betreft het verzenden van een bericht naar een ontvanger waarbij het essentieel 
 
 Voorbeeld in een dagelijkse situatie: Bij de bank wordt een bedrag bijgeboekt op de eigen rekening. De transactie die heeft plaatsgevonden wordt aan de betrokken rekeninghouders teruggekoppeld met een melding over de bijschrijving en een melding aan de andere rekeninghouder over de afboeking. Hier is sprake van een “reliable message” want er kan nooit een afboeking plaatsvinden zonder een bijschrijving en vice versa.
 
-![Berichtuitwisseling bij Meldingen](media/berichtuitwisseling_bij_meldingen.png "Berichtuitwisseling bij Meldingen")
+![Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer versturd worden.](media/berichtuitwisseling_bij_meldingen.png "Berichtuitwisseling bij Meldingen")
 
 Meldingen worden ingericht op basis van de Digikoppeling-koppelvlakstandaard ebMS2.
 
@@ -276,9 +276,9 @@ Een intermediair vormt een schakel in de Digikoppeling-keten tussen serviceaanbi
 
 Een intermediair zoals een sectoraal knooppunt kan in opdracht van partijen inhoudelijke bewerkingen op berichten uitvoeren zoals de integratie, conversie en distributie van gegevens. Een dergelijke ondersteunende rol kan partijen ontzorgen bij de implementatie van standaarden, het beheer van gedeelde / gezamenlijke voorzieningen en de afstemming tussen partijen op het gebied van gegevensuitwisseling.
 
-![Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer](media/berichtuitwisseling_met_intermediair.png "Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer")
+![ Bij berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer loopt al het berichtenverkeer tussen verschillende aanbieders en afnemers via een intermediair.](media/berichtuitwisseling_met_intermediair.png "Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer")
 
-![Berichtuitwisseling zonder intermediair](media/berichtuitwisseling_zonder_intermediair.png "Berichtuitwisseling zonder intermediair")
+![Bij berichtuitwisseling zonder intermediair wisselen verschillende afnemers en aanbieders direct berichten uit.](media/berichtuitwisseling_zonder_intermediair.png "Berichtuitwisseling zonder intermediair")
 
 ### Componenten in de logistieke Digikoppeling-keten
 
@@ -319,7 +319,7 @@ De berichtuitwisseling tussen betrokken partijen kent de volgende mogelijkheden:
 
 In het eenvoudigste ‘patroon’ gebruiken de serviceaanbieder en serviceafnemer Digikoppeling rechtstreeks voor bevragingen of meldingen, eventueel in combinatie met grote berichten. Partijen stellen samen een (technisch) servicecontract op dat ingelezen kan worden in de eigen Digikoppeling-adapter. Zie Figuur 7.
 
-![Bilaterale uitwisseling](media/bilaterale_uitwisseling.png "Bilaterale uitwisseling")
+![Bij bilaterale uitwisseling wordt berichtenverkeer tussen afnemer en aanbieder direct ingericht.](media/bilaterale_uitwisseling.png "Bilaterale uitwisseling")
 
 ### Bilaterale uitwisseling via een transparante intermediair
 
@@ -327,5 +327,4 @@ Een transparante keten<sup>18</sup> is alleen mogelijk als zowel de serviceaanbi
 
 <sup>18</sup>: Zonder wijziging aan berichten.
 
-![Uitwisseling via transparante intermediair](media/uitwisseling_via_transparante_intermediair.png "Uitwisseling via transparante intermediair")
-
+![Bij uitwisseling via transparante intermediair verloopt het berichtenverkeer tussen aanbieder en afnemer via een intermeiair waarij het bericht intakt blijft.](media/uitwisseling_via_transparante_intermediair.png "Uitwisseling via transparante intermediair")
