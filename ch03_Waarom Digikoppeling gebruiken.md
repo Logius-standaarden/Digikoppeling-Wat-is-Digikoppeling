@@ -20,7 +20,7 @@ De toepassing van Digikoppeling heeft enkele grote voordelen:
 
 - Figuur 3 geeft een grafische weergave van de voordelen.
 
-![Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt](media/voordelen_op_een_rij.png "Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt")
+![De voordelen van gebruik van Digikoppeling zijn: een slimmer proces door het maken van logistieke afspraken, betere dienstverlening door het gemakkelijker en sneller delen van informatie door overheden en slimmer beheer door eenmalige implementatie en meervoudig gebruik.](media/voordelen_op_een_rij.png "Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt")
 
 ## Besparingen binnen het stelsel van Basisregistraties
 
@@ -37,4 +37,3 @@ Een aandachtspunt is de adoptie van de standaarden en voorzieningen. Wanneer mee
 | **Meer informatie** | **Zie** |
 |---|---|
 | Rapport PWC | Online: [Kostenbatenanalyse PWC](http://e-overheid.nl/images/stories/Publicaties/rapport_%20kba_def.pdf) (link) |
-

@@ -33,7 +33,7 @@ Digikoppeling is geen netwerk, beveiliging, Enterprise Service Bus (ESB) of gege
 
 ### Definitie Digikoppeling
 
-**Definitie van Digikoppeling** volgens Logius:
+Definitie van Digikoppeling volgens Logius:
 
 *Digikoppeling faciliteert gegevensuitwisselingen tussen (semi-) overheidsorganisaties door standaardisatie van koppelvlakken. Een koppelvlak is een overeengekomen set middelen en afspraken.*
 
@@ -45,7 +45,7 @@ Figuur 1 geeft de plaats van Digikoppeling weer. Digikoppeling legt een verbindi
 
 Een serviceregister en voorzieningen (de groene blokken) zijn beschikbaar voor het implementatieproces.
 
-![Gebruik van Digikoppeling door (overheids)organisaties](media/gebruik_van_digikoppeling_door_overheidsorganisaties.png "Gebruik van Digikoppeling door (overheids)organisaties")
+![Gebruik van Digikoppeling door (overheids)organisaties: Digikoppeling verbindt serviceafnemers met serviceaanbieders via Digikoppeling adapters](media/gebruik_van_digikoppeling_door_overheidsorganisaties.png "Gebruik van Digikoppeling door (overheids)organisaties")
 
 | **Meer informatie** | **Zie** | **Doelgroep** |
 |---|---|---|
@@ -162,4 +162,3 @@ Tabel 2: Documenten met inhoudelijke uitwerking van de Digikoppeling-standaarden
 ## Succesvolle toepassingen met Digikoppeling
 
 Op de Logius website zijn voorbeelden geplaatst van succesvolle toepassingen met Digikoppeling. Zie Online: [Logius](https://www.logius.nl/digikoppeling/) (link).
-

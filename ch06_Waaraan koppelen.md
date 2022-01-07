@@ -97,4 +97,3 @@ Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisat
 
 Zie de Logius webste voor een overzicht van landelijke voorzieningen waarvoor Digikoppeling benodigd is, welk koppelvlakstandaarden ondersteund worden en referenties naar meer (aansluit)informatie.   
 Opmerking: de voorzieningen zijn aan veranderingen onderhevig. Informeer daarom altijd naar de laatste stand van zaken bij de Landelijke Voorziening zelf.
-
