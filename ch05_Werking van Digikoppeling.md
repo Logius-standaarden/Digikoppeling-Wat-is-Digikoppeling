@@ -24,7 +24,7 @@ Betreft het verzenden van een bericht naar een ontvanger waarbij het essentieel 
 
 Voorbeeld in een dagelijkse situatie: Bij de bank wordt een bedrag bijgeboekt op de eigen rekening. De transactie die heeft plaatsgevonden wordt aan de betrokken rekeninghouders teruggekoppeld met een melding over de bijschrijving en een melding aan de andere rekeninghouder over de afboeking. Hier is sprake van een “reliable message” want er kan nooit een afboeking plaatsvinden zonder een bijschrijving en vice versa.
 
-![Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer versturd worden.](media/berichtuitwisseling_bij_meldingen.png "Berichtuitwisseling bij Meldingen")
+![Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer verstuurd worden.](media/berichtuitwisseling_bij_meldingen.png "Berichtuitwisseling bij Meldingen")
 
 Meldingen worden ingericht op basis van de Digikoppeling-koppelvlakstandaard ebMS2.
 
@@ -327,4 +327,4 @@ Een transparante keten<sup>18</sup> is alleen mogelijk als zowel de serviceaanbi
 
 <sup>18</sup>: Zonder wijziging aan berichten.
 
-![Bij uitwisseling via transparante intermediair verloopt het berichtenverkeer tussen aanbieder en afnemer via een intermeiair waarij het bericht intakt blijft.](media/uitwisseling_via_transparante_intermediair.png "Uitwisseling via transparante intermediair")
+![Bij uitwisseling via transparante intermediair verloopt het berichtenverkeer tussen aanbieder en afnemer via een intermediair waarbij het bericht intakt blijft.](media/uitwisseling_via_transparante_intermediair.png "Uitwisseling via transparante intermediair")

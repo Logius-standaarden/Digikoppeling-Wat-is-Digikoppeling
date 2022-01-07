@@ -45,7 +45,7 @@ Figuur 1 geeft de plaats van Digikoppeling weer. Digikoppeling legt een verbindi
 
 Een serviceregister en voorzieningen (de groene blokken) zijn beschikbaar voor het implementatieproces.
 
-![Gebruik van Digikoppeling door (overheids)organisaties: Digikoppeling verbindt serviceafnemers met serviceaanbieders via DIgikoppeling adapters](media/gebruik_van_digikoppeling_door_overheidsorganisaties.png "Gebruik van Digikoppeling door (overheids)organisaties")
+![Gebruik van Digikoppeling door (overheids)organisaties: Digikoppeling verbindt serviceafnemers met serviceaanbieders via Digikoppeling adapters](media/gebruik_van_digikoppeling_door_overheidsorganisaties.png "Gebruik van Digikoppeling door (overheids)organisaties")
 
 | **Meer informatie** | **Zie** | **Doelgroep** |
 |---|---|---|
