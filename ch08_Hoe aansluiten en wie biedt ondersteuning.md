@@ -40,7 +40,7 @@ Servicecentrum Logius is uw eerste aanspreekpunt binnen Logius. Het vervult de l
 
 De Digikoppeling community is een online forum over Digikoppeling. Er vinden algemene discussies plaats, worden vragen gesteld en antwoorden gegeven. Het forum wordt ook ingezet voor openbare consultatie van wijzigingen aan Digikoppeling. Zo zijn er discussies over wijzigingsvoorstellen die behandeld worden. Deelname aan de Digikoppeling-Community staat open voor alle geïnteresseerden. Logius treedt op als moderator van de community.
 
-Link naar de Digikoppeling community: [digikoppeling.pleio.nl](https://digikoppeling.pleio.nl/)
+Link naar de Digikoppeling community: [digistandaarden.pleio.nl](https://digistandaarden.pleio.nl/)
 
 ## Welke ondersteuning bieden leveranciers?
 
@@ -75,4 +75,3 @@ Om (gemeentelijke) organisaties op weg te helpen bij het bevragen van de markt i
 Het streven is namelijk dat (gemeentelijke) organisaties kunnen beschikken over een generieke Digikoppeling-omgeving die voor meerdere voorzieningen herbruikbaar is.
 
 Link naar de online marktscan: [Markscan](http://new.kinggemeenten.nl/operatie-nup/resultaten-marktscan).
-

@@ -161,4 +161,4 @@ Tabel 2: Documenten met inhoudelijke uitwerking van de Digikoppeling-standaarden
 
 ## Succesvolle toepassingen met Digikoppeling
 
-Op de Logius website zijn voorbeelden geplaatst van succesvolle toepassingen met Digikoppeling. Zie Online: [Logius](https://www.logius.nl/digikoppeling/) (link).
+Op de Logius website zijn voorbeelden geplaatst van succesvolle toepassingen met Digikoppeling. Zie Online: [Logius](https://www.logius.nl/diensten/digikoppeling) (link).

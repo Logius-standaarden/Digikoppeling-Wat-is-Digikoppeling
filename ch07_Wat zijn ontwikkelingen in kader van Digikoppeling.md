@@ -36,5 +36,4 @@ De wereld om ons heen verandert continu. Veranderingen hebben ook invloed op Dig
 
 Toekomstige ontwikkelingen en doelstellingen om als organisatie mee rekening te houden bij de implementatie van Digikoppeling en ontwikkelingen in de Digikoppeling standaard worden online op [www.logius.nl/digikoppeling](http://www.logius.nl/digikoppeling) beschreven.
 
-Tevens kunt u online op [digikoppeling.pleio.nl](https://digikoppeling.pleio.nl/) ontwikkelingen volgen, vragen stellen en mee discussiëren over deze ontwikkelingen.
-
+Tevens kunt u online op [digistandaarden.pleio.nl](https://digistandaarden.pleio.nl/) ontwikkelingen volgen, vragen stellen en mee discussiëren over deze ontwikkelingen.
