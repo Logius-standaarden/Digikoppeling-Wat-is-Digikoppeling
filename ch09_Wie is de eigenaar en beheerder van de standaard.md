@@ -12,4 +12,4 @@ Logius is beheerder en zorgt voor:
 
 - Beheren en ontwikkelen van de Digikoppeling koppelvlakstandaarden en voorzieningen n.a.v. wensen binnen de e-Overheid en de markt.
 
-Actuele informatie over ingeplande releases, onderhoudsmomenten en storingen vindt u online op de Digikoppeling Community: [digikoppeling.pleio.nl](https://digikoppeling.pleio.nl/) en op de website van Logius bij actuele berichten: [www.logius.nl/digikoppeling](http://www.logius.nl/digikoppeling).
+Actuele informatie over ingeplande releases, onderhoudsmomenten en storingen vindt u online op de Digikoppeling Community: [digistandaarden.pleio.nl](https://digistandaarden.pleio.nl/) en op de website van Logius bij actuele berichten: [www.logius.nl/digikoppeling](http://www.logius.nl/digikoppeling).

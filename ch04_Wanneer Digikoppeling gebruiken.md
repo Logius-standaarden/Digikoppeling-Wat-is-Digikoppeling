@@ -22,6 +22,5 @@ Ook andere organisaties, zoals private organisaties, kunnen baat hebben bij gebr
 
 | **Meer informatie** | **Zie** | **Doelgroep** |
 |---|---|---|
-| Lijst met standaarden van College Standaardisatie en toelichting “pas toe of leg uit” principe | Online: [forumstandaardisatie.nl](https://lijsten.forumstandaardisatie.nl/open-standaarden/digikoppeling) (link) | [PL] [A&D]  [OT&B] |
+| Lijst met standaarden van College Standaardisatie en toelichting “pas toe of leg uit” principe | Online: [forumstandaardisatie.nl](https://www.forumstandaardisatie.nl/open-standaarden/digikoppeling) (link) | [PL] [A&D]  [OT&B] |
 | Aansluitprocedure implementatie Digikoppeling | Leeswijzer_aansluitprocedure_implementatie_DK | [MT] [PL] [A&D] [OT&B] |
-

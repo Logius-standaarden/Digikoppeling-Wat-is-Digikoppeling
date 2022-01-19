@@ -36,4 +36,4 @@ Een aandachtspunt is de adoptie van de standaarden en voorzieningen. Wanneer mee
 
 | **Meer informatie** | **Zie** |
 |---|---|
-| Rapport PWC | Online: [Kostenbatenanalyse PWC](http://e-overheid.nl/images/stories/Publicaties/rapport_%20kba_def.pdf) (link) |
+| Rapport PWC | Verfijning en herijking kosten-batenanalyse voor investeringen ingemeenschappelijke voorzieningen inhet stelsel van basisregistraties (Referentie 2010-0430/ADB/mh/ms/wb) |

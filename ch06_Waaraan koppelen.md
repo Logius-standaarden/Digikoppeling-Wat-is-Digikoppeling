@@ -34,9 +34,9 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 
 | **Meer informatie** | **Zie document in de aansluitkit** | **Doelgroep** |
 |---|---|---|
-| Digimelding | Online: [Logius.nl](http://www.logius.nl/producten/gegevensuitwisseling/digimelding/) (link) | [PL] [A&D]  [OT&B] |
-| Digilevering | Online: [Logius.nl](http://www.logius.nl/producten/gegevensuitwisseling/digilevering/) (link) | |
-| Stelselcatalogus | Online: [Logius.nl](http://www.logius.nl/producten/gegevensuitwisseling/stelselcatalogus/) (link)  | |
+| Digimelding | Online: [Logius.nl](https://logius.nl/diensten/digimelding) (link) | [PL] [A&D]  [OT&B] |
+| Digilevering | Online: [Logius.nl](https://logius.nl/diensten/digilevering) (link) | |
+| Stelselcatalogus | Online: [Logius.nl](https://logius.nl/diensten/stelselcatalogus) (link)  | |
 
 ## Aansluiten op Landelijke Voorzieningen
 
