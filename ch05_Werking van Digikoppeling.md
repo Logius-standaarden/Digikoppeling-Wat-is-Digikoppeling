@@ -36,6 +36,10 @@ Berichten (Bevragingen of Meldingen) die een grootte hebben van meer dan 20 MiB<
 
 <sup>6</sup>: 1 MiB=1024\^2 bytes : Voorheen stond hier 20MB. We gebruiken de term MiB om geen enkele verwarring te scheppen over de drempelwaarde. Het verschil tussen 20Mb en 20Mib is echter te verwaarlozen.
 
+### REST API
+
+_TODO: Toe te voegen_
+
 ### Inhoudelijke verdieping: Bevragingen, meldingen en GB
 
 Onderstaand kader geeft een verdere toelichting op de twee hoofdvormen van berichtuitwisseling (bevragingen en meldingen) en het omgaan met grote berichten. Het is opgesteld vanuit een technisch perspectief.

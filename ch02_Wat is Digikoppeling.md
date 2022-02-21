@@ -127,9 +127,6 @@ Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging
 								</ul>
 							</li>
 							<li> <a href="https://publicatie.centrumvoorstandaarden.nl/dk/restapi/">DK Koppelvlakstandaard REST API</a>*
-								<ul>
-									<li> <i><a href="https://publicatie.centrumvoorstandaarden.nl/dk/restapi">Best-practice REST API</a></i>† </li>
-								</ul>
 							</li>
 							<li> <a href="https://publicatie.centrumvoorstandaarden.nl/dk/gb/">DK Koppelvlakstandaard Grote Berichten</a>*
 								<ul>
@@ -151,10 +148,6 @@ Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging
 </details>
 
 
-
-
-
-
 De Digikoppeling standaarden (zie Figuur 2) zijn nader uitwerkt in verschillende documenten. In Tabel 2 staat een overzicht om welke documenten het gaat en is kort toegelicht wat deze beschrijven.
 
 | **Document** | **Wat beschrijft deze?** | **Doelgroep** |
@@ -162,6 +155,7 @@ De Digikoppeling standaarden (zie Figuur 2) zijn nader uitwerkt in verschillende
 | Digikoppeling Koppelvlakstandaard WUS | Het gebruik van WUS voor bevragingen en de WUS profielen. | [A&D]  [OT&B] |
 | Digikoppeling Koppelvlakstandaard ebMS2 | Het gebruik van ebMS2 voor meldingen en de ebMS2 profielen | |
 | Digikoppeling Koppelvlakstandaard Grote Berichten | Voor de uitwisseling van grote berichten maakt gebruik van WUS met HTTPS bestandsoverdracht of ebMS2 met HTTPS bestandsoverdracht | |
+| Digikoppeling Koppelvlakstandaard REST API | Het gebruik van REST API koppelvlakken | |
 | Identificatie en Authenticatie en Gebruik en Achtergrond Digikoppeling Certificaten  | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en het ondertekenen en versleutelen van berichten en bijlagen.  | [A&D]  [OT&B] |
 
 Tabel 2: Documenten met inhoudelijke uitwerking van de Digikoppeling-standaarden

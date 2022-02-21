@@ -4,7 +4,7 @@
 
 Digikoppeling kan door alle (publieke en private) organisaties worden toegepast die onderling gegevens willen uitwisselen. Verplicht gebruik van de Digikoppeling standaard geldt alleen voor overheden (Rijk, provincies, gemeenten en waterschappen) en instellingen uit de publieke sector in geval van berichtenverkeer met basisregistraties en sectoroverstijgend berichtenverkeer. Zij vallen onder het zogenoemde *organisatorische werkingsgebied*. Het gebruik buiten dit domein gebeurt altijd in overleg en in samenwerking met de betrokken uitwisselingspartners.
 
-De Digikoppeling standaard is opgenomen in de lijst met ‘pas toe of leg uit’-standaarden van het College Standaardisatie. Het betreft de koppelvlakstandaarden ebMS2, WUS en Grote Berichten.
+De Digikoppeling standaard is opgenomen in de lijst met ‘pas toe of leg uit’-standaarden van het College Standaardisatie. Het betreft de koppelvlakstandaarden ebMS2, WUS, REST API en Grote Berichten.
 
 **College Standaardisatie over Digikoppeling**
 
