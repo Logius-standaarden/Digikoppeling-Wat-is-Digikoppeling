@@ -79,13 +79,15 @@ Zie de schematische weergave in §5.1.
 
 De koppelvlakstandaarden ondersteunen de volgende vormen van berichtuitwisseling:
 
-- WUS voor bevragingen
+- WUS voor bevragingen.
 
 - ebMS2 voor meldingen(transacties).
 
 - Grote berichten voor het uitwisselen van grote bestanden.
 
-Vanwege interoperabiliteit, eenvoud en overzichtelijkheid onderscheidt Digikoppeling per koppelvlakstandaard een aantal standaardprofielen<sup>2</sup>. Elk profiel bestaat uit vooraf gedefinieerde keuzen over kenmerken als synchroniciteit, beveiliging en betrouwbaarheid voor WUS of ebMS2. Door toepassing van de Digikoppeling profielen worden deze kenmerken correct afgehandeld en kunnen partijen sneller een koppelvlakstandaard implementeren. De profielen worden nader gespecificeerd in de uitgebreide beschrijvingen van de koppelvlakstandaarden WUS en ebMS2. Een inleiding over deze koppelvlakstandaarden is al in dit document opgenomen in §5.2, §5.3 en §5.4.
+- REST API koppelvlakstandaard.
+
+Vanwege interoperabiliteit, eenvoud en overzichtelijkheid onderscheidt Digikoppeling per koppelvlakstandaard een aantal standaardprofielen<sup>2</sup>. Elk profiel bestaat uit vooraf gedefinieerde keuzen over kenmerken als synchroniciteit, beveiliging en betrouwbaarheid voor REST API, WUS of ebMS2. Door toepassing van de Digikoppeling profielen worden deze kenmerken correct afgehandeld en kunnen partijen sneller een koppelvlakstandaard implementeren. De profielen worden nader gespecificeerd in de uitgebreide beschrijvingen van de Digikoppeling koppelvlakstandaarden. Een inleiding over deze koppelvlakstandaarden is al in dit document opgenomen in §5.2, §5.3 en §5.4.
 
 <sup>2</sup>: Een specifieke invulling van een van de Digikoppeling koppelvlakstandaarden die een groep functionele eisen invult. Een koppelvlakstandaard kan daardoor meerdere varianten van communicatie bieden. Het betreft functionele eisen op gebied van betrouwbaarheid, veiligheid en performance.
 
@@ -122,6 +124,11 @@ Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging
 							<li> <a href="https://publicatie.centrumvoorstandaarden.nl/dk/ebms/">DK Koppelvlakstandaard ebMS2</a>*
 								<ul>
 									<li> <i><a href="https://publicatie.centrumvoorstandaarden.nl/dk/bpebms">Best-practice ebMS2</a></i>† </li>
+								</ul>
+							</li>
+							<li> <a href="https://publicatie.centrumvoorstandaarden.nl/dk/restapi/">DK Koppelvlakstandaard REST API</a>*
+								<ul>
+									<li> <i><a href="https://publicatie.centrumvoorstandaarden.nl/dk/restapi">Best-practice REST API</a></i>† </li>
 								</ul>
 							</li>
 							<li> <a href="https://publicatie.centrumvoorstandaarden.nl/dk/gb/">DK Koppelvlakstandaard Grote Berichten</a>*
