@@ -40,6 +40,8 @@ Berichten (Bevragingen of Meldingen) die een grootte hebben van meer dan 20 MiB<
 
 _TODO: Toe te voegen_
 
+REST API koppelingen bieden een manier van aansluiten die met name aansluit bij nieuw ontwikkelde software. Omdat een REST API koppeling ook informatie geeft over de functionaliteit wordt een REST API koppeling als laagdrempeliger ervaren dan meer traditionele SOAP koppelvlakken. Een govolg van het REST principe is wel dat het koppelvlak in principe vooral geschikt is voor bevragingen omdat communicatie altijd uitgaat van de serviceafnemer.
+
 ### Inhoudelijke verdieping: Bevragingen, meldingen en GB
 
 Onderstaand kader geeft een verdere toelichting op de twee hoofdvormen van berichtuitwisseling (bevragingen en meldingen) en het omgaan met grote berichten. Het is opgesteld vanuit een technisch perspectief.
@@ -80,6 +82,10 @@ Digikoppeling Grote Berichten kent verschillende toepassingsvormen. De best-prac
 | Inhoudelijke beschrijving KVS WUS (huidige standaard) | Digikoppeling_\_Koppelvlakstandaard_WUS | [A&D]  [OT&B] |
 | Inhoudelijke beschrijving KVS ebMS2 | Digikoppeling_Koppelvlakstandaard\_ebMS2 | |
 | Inhoudelijke beschrijving KVS GB | Digikoppeling_Koppelvlakstandaard \_Grote_Berichten | |
+
+## Inleiding koppelvlakstandaard REST API
+
+_TODO: nog toe te voegen_
 
 ## Inleiding koppelvlakstandaard ebMS2
 
