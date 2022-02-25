@@ -267,6 +267,8 @@ Uitgangspunten en principes voor identificatie- en authenticatieafspraken zijn b
 | Identificatie en Authenticatie | Digikoppeling\_Identificatie_en_Authenticatie \_ | [A&D] [OT&B] |
 | Beveiligings standaarden en voorschriften | Digikoppeling_Beveiligingsstandaarden_en_voorschriften | |
 | Gebruik en achtergrond certificaten | Digikoppeling\_Gebruik_en_achtergrond_certificaten | |
+| Authenticatiestandaard voor API koppelvlakken | NL GOV Assurance profile for OAuth 2.0 | |
+| Authenticatiestandaard voor API koppelvlakken | NL GOV Assurance profile for OpenID Connect 1.0 | |
 
 ## Waaruit bestaat de Digikoppeling-keten?
 
