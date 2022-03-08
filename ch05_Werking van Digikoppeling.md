@@ -36,6 +36,10 @@ Berichten (Bevragingen of Meldingen) die een grootte hebben van meer dan 20 MiB<
 
 <sup>6</sup>: 1 MiB=1024\^2 bytes : Voorheen stond hier 20MB. We gebruiken de term MiB om geen enkele verwarring te scheppen over de drempelwaarde. Het verschil tussen 20Mb en 20Mib is echter te verwaarlozen.
 
+### REST API
+
+REST API koppelingen bieden een manier van aansluiten die met name aansluit bij nieuw ontwikkelde software. Omdat een REST API koppeling ook informatie geeft over de functionaliteit wordt een REST API koppeling als laagdrempeliger ervaren dan meer traditionele SOAP koppelvlakken. Een govolg van het REST principe is wel dat het koppelvlak in principe vooral geschikt is voor bevragingen omdat communicatie altijd uitgaat van de serviceafnemer.
+
 ### Inhoudelijke verdieping: Bevragingen, meldingen en GB
 
 Onderstaand kader geeft een verdere toelichting op de twee hoofdvormen van berichtuitwisseling (bevragingen en meldingen) en het omgaan met grote berichten. Het is opgesteld vanuit een technisch perspectief.
@@ -76,6 +80,20 @@ Digikoppeling Grote Berichten kent verschillende toepassingsvormen. De best-prac
 | Inhoudelijke beschrijving KVS WUS (huidige standaard) | Digikoppeling_\_Koppelvlakstandaard_WUS | [A&D]  [OT&B] |
 | Inhoudelijke beschrijving KVS ebMS2 | Digikoppeling_Koppelvlakstandaard\_ebMS2 | |
 | Inhoudelijke beschrijving KVS GB | Digikoppeling_Koppelvlakstandaard \_Grote_Berichten | |
+
+## Inleiding koppelvlakstandaard REST API
+
+_TODO: nog toe te voegen_
+
+### Achtergrond: API Standaarden
+
+Koppelvlakken volgens REST API principes zijn ontwikkeld vanuit de idee dat interactie tussen appliacties eenvoudiger moest kunnen. De voorgaande koppelvlakstandaarden werden als te uitgebreid en restrictief ervaren. REST API koppelvlakken zijn een poging om met een grisse blik naar interactie tussen applicaties te kijken.
+
+REST staat voor _representational state transfer_. REST is geen standaard maar een ontwerpprincipe, en laat nog veel vrijheid in het structureren van API's. In REST is een applicatie te bevragen als _resource_ via een URI. De status van het resource (en wat je bij een bevraging terugkrijgt) is de _resource representation_. Een belangrijk principe van REST is dat de bevraging _stateless_ is. Op een vraag komt een antwoord en daarmee is de transactie afgesloten. Een applicatie kan niet op eigen initiatief berichten naar een gebruiker sturen. Ieder antwoord is het gevolg van een vraag van een gebruiker.
+
+### Grote berichten ondersteund door standaard
+
+In de WUS en ebMS koppelvlakken is de grootte van een bericht beperkt. Daarom is voor di koppelvlakken een aanvullend koppelvlak nodig voor grote berichten
 
 ## Inleiding koppelvlakstandaard ebMS2
 
@@ -249,6 +267,8 @@ Uitgangspunten en principes voor identificatie- en authenticatieafspraken zijn b
 | Identificatie en Authenticatie | Digikoppeling\_Identificatie_en_Authenticatie \_ | [A&D] [OT&B] |
 | Beveiligings standaarden en voorschriften | Digikoppeling_Beveiligingsstandaarden_en_voorschriften | |
 | Gebruik en achtergrond certificaten | Digikoppeling\_Gebruik_en_achtergrond_certificaten | |
+| Authenticatiestandaard voor API koppelvlakken | NL GOV Assurance profile for OAuth 2.0 | |
+| Authenticatiestandaard voor API koppelvlakken | NL GOV Assurance profile for OpenID Connect 1.0 | |
 
 ## Waaruit bestaat de Digikoppeling-keten?
 
