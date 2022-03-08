@@ -84,7 +84,7 @@ Maak inzichtelijk:
 
 - Welke technische kenmerken van de berichtuitwisseling zijn van toepassing? Denk aan gebruik en plaatsing van PKIOverheid certificaten, zie het document Achtergrond en gebruik certificaten. En de netwerkkeuze (Diginetwerk of Internet).
 
-Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisatie zowel Bevragingen als Meldingen nodig. Aangeraden wordt om een specialist op dit gebied te bevragen. Ook is het mogelijk om onafhankelijk advies te vragen aan partijen als KING, LOGIUS, de ICTU, in de markt of bij soortgelijke overheidsdiensten.
+Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisatie zowel bevragingen als meldingen nodig. Aangeraden wordt om een specialist op dit gebied te bevragen. Ook is het mogelijk om onafhankelijk advies te vragen aan partijen als KING, LOGIUS, de ICTU, in de markt of bij soortgelijke overheidsdiensten.
 
 | **Meer informatie** | **Zie document in aansluitkit** | **Doelgroep** |
 |---|---|---|
