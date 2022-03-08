@@ -93,7 +93,7 @@ Vanwege interoperabiliteit, eenvoud en overzichtelijkheid onderscheidt Digikoppe
 
 ### Identificatie en Authenticatie
 
-Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging afspraken gemaakt over de Identificatie en Authenticatie van partijen en het gebruik van certificaten. In de documenten _Digikoppeling Identificatie en Authenticatie_ en _Digikoppeling Gebruik en Achtergronden Certificaten_ worden de afspraken nader gespecificeerd. Voor gebruik van REST API koppelvlakken is cd OAuth standaard van belang. Het Nederlandse profiel daarop is beschreven in _NL GOV Assurance profile for OAuth 2.0_ en _NL GOV Assurance profile for OpenID Connect_.
+Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging afspraken gemaakt over de Identificatie en Authenticatie van partijen en het gebruik van certificaten. In de documenten _Digikoppeling Identificatie en Authenticatie_ en _Digikoppeling Gebruik en Achtergronden Certificaten_ worden de afspraken nader gespecificeerd. Voor gebruik van REST API koppelvlakken is de OAuth standaard van belang. Het Nederlandse profiel daarop is beschreven in _NL GOV Assurance profile for OAuth 2.0_ en _NL GOV Assurance profile for OpenID Connect_.
 
 ![Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen](media/DK_Specificatie_structuur.svg "Opbouw documentatie Digikoppeling")
 
@@ -151,9 +151,9 @@ De Digikoppeling standaarden (zie Figuur 2) zijn nader uitwerkt in verschillende
 | **Document** | **Wat beschrijft deze?** | **Doelgroep** |
 |---|---|---|
 | Digikoppeling Koppelvlakstandaard WUS | Het gebruik van WUS voor bevragingen en de WUS profielen. | [A&D]  [OT&B] |
-| Digikoppeling Koppelvlakstandaard ebMS2 | Het gebruik van ebMS2 voor meldingen en de ebMS2 profielen | |
-| Digikoppeling Koppelvlakstandaard Grote Berichten | Voor de uitwisseling van grote berichten maakt gebruik van WUS met HTTPS bestandsoverdracht of ebMS2 met HTTPS bestandsoverdracht | |
-| Digikoppeling Koppelvlakstandaard REST API | Het gebruik van REST API koppelvlakken | |
+| Digikoppeling Koppelvlakstandaard ebMS2 | Het gebruik van ebMS2 voor meldingen en de ebMS2 profielen |[A&D]  [OT&B] |
+| Digikoppeling Koppelvlakstandaard Grote Berichten | Voor de uitwisseling van grote berichten maakt gebruik van WUS met HTTPS bestandsoverdracht of ebMS2 met HTTPS bestandsoverdracht |[A&D]  [OT&B] |
+| Digikoppeling Koppelvlakstandaard REST API | Het gebruik van REST API koppelvlakken |[A&D]  [OT&B] |
 | Identificatie en Authenticatie en Gebruik en Achtergrond Digikoppeling Certificaten  | Beschrijft de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en het ondertekenen en versleutelen van berichten en bijlagen.  | [A&D]  [OT&B] |
 
 Tabel 2: Documenten met inhoudelijke uitwerking van de Digikoppeling-standaarden
