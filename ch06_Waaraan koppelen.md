@@ -74,7 +74,7 @@ Maak inzichtelijk:
 
 - Welke partij / partijen beschikken over de informatie om te bevragen danwel zouden informatie moeten ontvangen? Basisregistraties hebben als bronhouder specifieke afspraken voor berichtuitwisseling. Deze afspraken en welke vorm van berichtuitwisseling van toepassing is zijn bij de basisregistratie zelf op te vragen. Zie de Logius website voor meer informatie.
 
-- Welke gegevensstromen zijn er tussen de bron en de bestemming? En, aan welke functionele eisen moet het proces van gegevensuitwisseling voldoen? Er zijn namelijk meerdere varianten mogelijk (ook wel profielen genoemd) in de berichtuitwisseling bij zowel bevragingen als meldingen. De functionele eisen gaan over synchroniciteit, beveiliging en betrouwbaarheid. In de documenten met koppelvlakstandaarden ebMS2, WUS en Grote Berichten zijn de ondersteunde varianten uitgewerkt. Vragen om te stellen zijn:
+- Welke gegevensstromen zijn er tussen de bron en de bestemming? En, aan welke functionele eisen moet het proces van gegevensuitwisseling voldoen? Er zijn namelijk meerdere varianten mogelijk (ook wel profielen genoemd) in de berichtuitwisseling bij zowel bevragingen als meldingen. De functionele eisen gaan over synchroniciteit, beveiliging en betrouwbaarheid. In de documenten met koppelvlakstandaarden zijn de ondersteunde varianten uitgewerkt. Vragen om te stellen zijn:
 
   - Zijn er eisen gesteld aan de uitwisseling van de gegevens? Bijvoorbeeld op gebied van informatiebeveiliging, zoals wel/geen encryptie.
 
@@ -84,7 +84,7 @@ Maak inzichtelijk:
 
 - Welke technische kenmerken van de berichtuitwisseling zijn van toepassing? Denk aan gebruik en plaatsing van PKIOverheid certificaten, zie het document Achtergrond en gebruik certificaten. En de netwerkkeuze (Diginetwerk of Internet).
 
-Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisatie zowel WUS (bevragingen) als ebMS2 (meldingen) nodig. Aangeraden wordt om een specialist op dit gebied te bevragen. Ook is het mogelijk om onafhankelijk advies te vragen aan partijen als KING, LOGIUS, de ICTU, in de markt of bij soortgelijke overheidsdiensten.
+Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisatie zowel bevragingen als meldingen nodig. Aangeraden wordt om een specialist op dit gebied te bevragen. Ook is het mogelijk om onafhankelijk advies te vragen aan partijen als KING, LOGIUS, de ICTU, in de markt of bij soortgelijke overheidsdiensten.
 
 | **Meer informatie** | **Zie document in aansluitkit** | **Doelgroep** |
 |---|---|---|

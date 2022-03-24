@@ -14,7 +14,7 @@ Voorbeeld in een dagelijkse situatie: Het opvragen van het banksaldo via interne
 
 ![Bij een Digikoppeling bevragingen stuurt een serviceafnemer een bevraging naar een serviceaanbieder en krijgt een antwoord terug.](media/berichtuitwisseling_bij_bevragingen.png "Berichtuitwisseling bij Bevragingen")
 
-Bevragingen worden ingericht op basis van de Digikoppeling-koppelvlakstandaard WUS. Partijen hanteren dezelfde koppelvlakstandaard (WUS). Voor een bevraging is vereist dat de service op het moment van bevraging beschikbaar is. Er is sprake van een “best effort” want een antwoord op een bevraging kan bewust of om technische redenen niet altijd plaatsvinden. Bevragingen kunnen rechtstreeks of via een intermediair verlopen. Meer informatie, zie §5.3.
+Voor een bevraging is vereist dat de service op het moment van bevraging beschikbaar is. Er is sprake van een “best effort” want een antwoord op een bevraging kan bewust of om technische redenen niet altijd plaatsvinden. Bevragingen kunnen rechtstreeks of via een intermediair verlopen. Meer informatie, zie §5.3.
 
 ### Meldingen
 
@@ -26,9 +26,7 @@ Voorbeeld in een dagelijkse situatie: Bij de bank wordt een bedrag bijgeboekt op
 
 ![Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer verstuurd worden.](media/berichtuitwisseling_bij_meldingen.png "Berichtuitwisseling bij Meldingen")
 
-Meldingen worden ingericht op basis van de Digikoppeling-koppelvlakstandaard ebMS2.
-
-Meer informatie over deze koppelvlakken, zie voor ebMS2 §5.2 en zie voor WUS §5.3.
+ 
 
 ### Omgaan met Grote Berichten (GB)
 
@@ -38,7 +36,7 @@ Berichten (Bevragingen of Meldingen) die een grootte hebben van meer dan 20 MiB<
 
 ### REST API
 
-REST API koppelingen bieden een manier van aansluiten die met name aansluit bij nieuw ontwikkelde software. Omdat een REST API koppeling ook informatie geeft over de functionaliteit wordt een REST API koppeling als laagdrempeliger ervaren dan meer traditionele SOAP koppelvlakken. Een govolg van het REST principe is wel dat het koppelvlak in principe vooral geschikt is voor bevragingen omdat communicatie altijd uitgaat van de serviceafnemer.
+REST API koppelingen bieden een manier van aansluiten die met name aansluit bij nieuw ontwikkelde software. Omdat een REST API koppeling ook informatie geeft over de functionaliteit en standaard operaties voor data resources definieert (insert, update, delete) wordt een REST API koppeling als laagdrempeliger ervaren dan meer traditionele SOAP koppelvlakken. Een gevolg van het REST principe is wel dat het koppelvlak in principe vooral geschikt is voor bevragingen.
 
 ### Inhoudelijke verdieping: Bevragingen, meldingen en GB
 
@@ -83,17 +81,16 @@ Digikoppeling Grote Berichten kent verschillende toepassingsvormen. De best-prac
 
 ## Inleiding koppelvlakstandaard REST API
 
-_TODO: nog toe te voegen_
 
 ### Achtergrond: API Standaarden
 
-Koppelvlakken volgens REST API principes zijn ontwikkeld vanuit de idee dat interactie tussen appliacties eenvoudiger moest kunnen. De voorgaande koppelvlakstandaarden werden als te uitgebreid en restrictief ervaren. REST API koppelvlakken zijn een poging om met een grisse blik naar interactie tussen applicaties te kijken.
+Koppelvlakken volgens REST API principes zijn ontwikkeld vanuit de idee dat interactie tussen appliacties eenvoudiger moest kunnen. De voorgaande koppelvlakstandaarden werden voor bepaalde gevallen als te uitgebreid en restrictief ervaren. REST API koppelvlakken zijn een poging om met een frisse blik naar interactie tussen applicaties te kijken.
 
-REST staat voor _representational state transfer_. REST is geen standaard maar een ontwerpprincipe, en laat nog veel vrijheid in het structureren van API's. In REST is een applicatie te bevragen als _resource_ via een URI. De status van het resource (en wat je bij een bevraging terugkrijgt) is de _resource representation_. Een belangrijk principe van REST is dat de bevraging _stateless_ is. Op een vraag komt een antwoord en daarmee is de transactie afgesloten. Een applicatie kan niet op eigen initiatief berichten naar een gebruiker sturen. Ieder antwoord is het gevolg van een vraag van een gebruiker.
+REST staat voor _representational state transfer_. REST is geen standaard maar een ontwerpprincipe, en laat nog veel vrijheid in het structureren van API's. In REST is een applicatie te bevragen als _resource_ via een URI. De status van het resource (en wat je bij een bevraging terugkrijgt) is de _resource representation_. Een belangrijk principe van REST is dat de bevraging _stateless_ is. De server houdt geen sessie bij; iedere bevraging bevat zelf de relevante context. Op een vraag komt een antwoord en daarmee is de transactie afgesloten. Een applicatie kan niet op eigen initiatief berichten naar een gebruiker sturen. Ieder antwoord is het gevolg van een vraag van een gebruiker.
 
 ### Grote berichten ondersteund door standaard
 
-In de WUS en ebMS koppelvlakken is de grootte van een bericht beperkt. Daarom is voor di koppelvlakken een aanvullend koppelvlak nodig voor grote berichten
+In de WUS en ebMS koppelvlakken is de grootte van een bericht beperkt. Daarom is voor deze koppelvlakken een aanvullend koppelvlak nodig voor grote berichten
 
 ## Inleiding koppelvlakstandaard ebMS2
 
