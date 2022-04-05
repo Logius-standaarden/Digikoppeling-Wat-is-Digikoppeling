@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta charset="utf-8">
-<meta name="generator" content="ReSpec 32.1.2 Logius profile 20220404">
+<meta name="generator" content="ReSpec 32.1.2 Logius profile 20220405">
 <style>
 dfn{cursor:pointer}
 .dfn-panel{position:absolute;z-index:35;min-width:300px;max-width:500px;padding:.5em .75em;margin-top:.6em;font:small Helvetica Neue,sans-serif,Droid Sans Fallback;background:#fff;color:#000;box-shadow:0 1em 3em -.4em rgba(0,0,0,.3),0 0 1px 1px rgba(0,0,0,.05);border-radius:2px}
@@ -149,7 +149,6 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   },
   "nl_organisationName": "Logius",
   "nl_organisationPrefix": "LS-",
-  "nl_markdownTableClass": "dkkvs",
   "nl_markdownEmbedImageInFigure": true,
   "nl_organisationStylesURL": "https://publicatie.centrumvoorstandaarden.nl/respec/style/",
   "nl_organisationPublishURL": "https://publicatie.centrumvoorstandaarden.nl/",
@@ -279,7 +278,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Dit document is bedoeld om een algemene toelichting te geven over Digikoppeling en het gebruik ervan.</p></section>
     <section id="sotd" class="introductory"><h2>Status van dit document</h2>Dit is de definitieve versie van de  handreiking. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.<p></p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-scope"><bdi class="secno">1.1 </bdi>Doel en scope</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.2 </bdi>Leeswijzer</a></li><li class="tocline"><a class="tocxref" href="#doelgroep-van-dit-document"><bdi class="secno">1.3 </bdi>Doelgroep van dit document</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wat-is-digikoppeling"><bdi class="secno">2. </bdi>Wat is Digikoppeling?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#inleiding-0"><bdi class="secno">2.1 </bdi>Inleiding</a></li><li class="tocline"><a class="tocxref" href="#doel-van-digikoppeling"><bdi class="secno">2.2 </bdi>Doel van Digikoppeling</a></li><li class="tocline"><a class="tocxref" href="#scope-van-digikoppeling"><bdi class="secno">2.3 </bdi>Scope van Digikoppeling</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#definitie-digikoppeling"><bdi class="secno">2.3.1 </bdi>Definitie Digikoppeling</a></li><li class="tocline"><a class="tocxref" href="#gebruik-van-digikoppeling-door-semi-overheidsorganisaties"><bdi class="secno">2.3.2 </bdi>Gebruik van Digikoppeling door (semi-)overheidsorganisaties</a></li></ol></li><li class="tocline"><a class="tocxref" href="#de-digikoppeling-standaarden"><bdi class="secno">2.4 </bdi>De Digikoppeling standaarden</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#koppelvlakstandaarden-voor-berichtenuitwisseling"><bdi class="secno">2.4.1 </bdi>Koppelvlakstandaarden voor berichtenuitwisseling</a></li><li class="tocline"><a class="tocxref" href="#identificatie-en-authenticatie"><bdi class="secno">2.4.2 </bdi>Identificatie en Authenticatie</a></li></ol></li><li class="tocline"><a class="tocxref" href="#succesvolle-toepassingen-met-digikoppeling"><bdi class="secno">2.5 </bdi>Succesvolle toepassingen met Digikoppeling</a></li></ol></li><li class="tocline"><a class="tocxref" href="#waarom-digikoppeling-gebruiken"><bdi class="secno">3. </bdi>Waarom Digikoppeling gebruiken?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#voordelen"><bdi class="secno">3.1 </bdi>Voordelen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wanneer-digikoppeling-gebruiken"><bdi class="secno">4. </bdi>Wanneer Digikoppeling gebruiken?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#wanneer-verplicht-gebruik-van-digikoppeling"><bdi class="secno">4.1 </bdi>Wanneer verplicht gebruik van Digikoppeling?</a></li><li class="tocline"><a class="tocxref" href="#bredere-toepassing-buiten-de-publieke-overheid-mogelijk"><bdi class="secno">4.2 </bdi>Bredere toepassing buiten de (publieke) overheid mogelijk</a></li></ol></li><li class="tocline"><a class="tocxref" href="#werking-van-digikoppeling"><bdi class="secno">5. </bdi>Werking van Digikoppeling?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#welke-vormen-van-berichtuitwisseling-zijn-er"><bdi class="secno">5.1 </bdi>Welke vormen van berichtuitwisseling zijn er?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bevragingen"><bdi class="secno">5.1.1 </bdi>Bevragingen</a></li><li class="tocline"><a class="tocxref" href="#meldingen"><bdi class="secno">5.1.2 </bdi>Meldingen</a></li><li class="tocline"><a class="tocxref" href="#omgaan-met-grote-berichten-gb"><bdi class="secno">5.1.3 </bdi>Omgaan met Grote Berichten (GB)</a></li><li class="tocline"><a class="tocxref" href="#rest-api"><bdi class="secno">5.1.4 </bdi>REST API</a></li><li class="tocline"><a class="tocxref" href="#inhoudelijke-verdieping-bevragingen-meldingen-en-gb"><bdi class="secno">5.1.5 </bdi>Inhoudelijke verdieping: Bevragingen, meldingen en GB</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bevragingen-0"><bdi class="secno">5.1.5.1 </bdi>Bevragingen</a></li><li class="tocline"><a class="tocxref" href="#meldingen-en-mutaties"><bdi class="secno">5.1.5.2 </bdi>Meldingen en mutaties</a></li><li class="tocline"><a class="tocxref" href="#grote-berichten-gb"><bdi class="secno">5.1.5.3 </bdi>Grote berichten (GB)</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#inleiding-koppelvlakstandaard-rest-api"><bdi class="secno">5.2 </bdi>Inleiding koppelvlakstandaard REST API</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#achtergrond-api-standaarden"><bdi class="secno">5.2.1 </bdi>Achtergrond: API Standaarden</a></li><li class="tocline"><a class="tocxref" href="#grote-berichten-ondersteund-door-standaard"><bdi class="secno">5.2.2 </bdi>Grote berichten ondersteund door standaard</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inleiding-koppelvlakstandaard-ebms2"><bdi class="secno">5.3 </bdi>Inleiding koppelvlakstandaard ebMS2</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#achtergrond-ebms-familie-van-standaarden"><bdi class="secno">5.3.1 </bdi>Achtergrond: ebMS familie van standaarden</a></li><li class="tocline"><a class="tocxref" href="#ebms2-voor-meldingen"><bdi class="secno">5.3.2 </bdi>ebMS2 voor meldingen</a></li><li class="tocline"><a class="tocxref" href="#cpa-voor-vastleggen-gegevensuitwisseling"><bdi class="secno">5.3.3 </bdi>CPA voor vastleggen gegevensuitwisseling</a></li><li class="tocline"><a class="tocxref" href="#ebms2-voor-vragen-met-een-uitgesteld-antwoord"><bdi class="secno">5.3.4 </bdi>ebMS2 voor vragen met een uitgesteld antwoord</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inleiding-koppelvlakstandaard-wus"><bdi class="secno">5.4 </bdi>Inleiding koppelvlakstandaard WUS</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#achtergrond-wus-familie-van-standaarden"><bdi class="secno">5.4.1 </bdi>Achtergrond: WUS familie van standaarden</a></li><li class="tocline"><a class="tocxref" href="#wus-voor-bevragingen"><bdi class="secno">5.4.2 </bdi>WUS voor bevragingen</a></li><li class="tocline"><a class="tocxref" href="#wsdl"><bdi class="secno">5.4.3 </bdi>WSDL</a></li></ol></li><li class="tocline"><a class="tocxref" href="#inleiding-koppelvlakstandaard-grote-berichten"><bdi class="secno">5.5 </bdi>Inleiding koppelvlakstandaard Grote berichten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#werking-grote-berichten"><bdi class="secno">5.5.1 </bdi>Werking grote berichten</a></li><li class="tocline"><a class="tocxref" href="#standaarden-voor-grote-berichten"><bdi class="secno">5.5.2 </bdi>Standaarden voor grote berichten</a></li></ol></li><li class="tocline"><a class="tocxref" href="#informatiebeveiliging-voor-berichtuitwisseling"><bdi class="secno">5.6 </bdi>Informatiebeveiliging voor berichtuitwisseling</a></li><li class="tocline"><a class="tocxref" href="#waaruit-bestaat-de-digikoppeling-keten"><bdi class="secno">5.7 </bdi>Waaruit bestaat de Digikoppeling-keten?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#partijen"><bdi class="secno">5.7.1 </bdi>Partijen</a></li><li class="tocline"><a class="tocxref" href="#intermediairs"><bdi class="secno">5.7.2 </bdi>Intermediairs</a></li><li class="tocline"><a class="tocxref" href="#componenten-in-de-logistieke-digikoppeling-keten"><bdi class="secno">5.7.3 </bdi>Componenten in de logistieke Digikoppeling-keten</a></li></ol></li><li class="tocline"><a class="tocxref" href="#hoe-ziet-de-berichtuitwisseling-dialoog-eruit-voor-bevragingen-en-meldingen"><bdi class="secno">5.8 </bdi>Hoe ziet de berichtuitwisseling-dialoog eruit voor bevragingen en meldingen?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#bilaterale-uitwisseling-tussen-partijen"><bdi class="secno">5.8.1 </bdi>Bilaterale uitwisseling tussen partijen</a></li><li class="tocline"><a class="tocxref" href="#bilaterale-uitwisseling-via-een-transparante-intermediair"><bdi class="secno">5.8.2 </bdi>Bilaterale uitwisseling via een transparante intermediair</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#waaraan-koppelen"><bdi class="secno">6. </bdi>Waaraan koppelen?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#de-stelselvoorzieningen"><bdi class="secno">6.1 </bdi>De Stelselvoorzieningen</a></li><li class="tocline"><a class="tocxref" href="#aansluiten-op-landelijke-voorzieningen"><bdi class="secno">6.2 </bdi>Aansluiten op Landelijke Voorzieningen</a></li><li class="tocline"><a class="tocxref" href="#betrokken-partijen-in-het-stelseldomein"><bdi class="secno">6.3 </bdi>Betrokken partijen in het Stelseldomein</a></li><li class="tocline"><a class="tocxref" href="#welke-keuze-maken-voor-de-vorm-van-berichtuitwisseling"><bdi class="secno">6.4 </bdi>Welke keuze maken voor de vorm van berichtuitwisseling?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-koppelvlakstandaarden-landelijke-voorzieningen"><bdi class="secno">6.4.1 </bdi>Overzicht koppelvlakstandaarden Landelijke Voorzieningen</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#wat-zijn-ontwikkelingen-in-kader-van-digikoppeling"><bdi class="secno">7. </bdi>Wat zijn ontwikkelingen in kader van Digikoppeling?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#ontwikkeling-van-digikoppeling-versies"><bdi class="secno">7.1 </bdi>Ontwikkeling van Digikoppeling versies</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#digikoppeling-1-0-en-1-1"><bdi class="secno">7.1.1 </bdi>Digikoppeling 1.0 en 1.1</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-2-0"><bdi class="secno">7.1.2 </bdi>Digikoppeling 2.0</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-3-0"><bdi class="secno">7.1.3 </bdi>Digikoppeling 3.0</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-na-versie-3-0"><bdi class="secno">7.1.4 </bdi>Digikoppeling na versie 3.0</a></li></ol></li><li class="tocline"><a class="tocxref" href="#toekomstige-ontwikkelingen-op-gebied-van-de-standaard"><bdi class="secno">7.2 </bdi>Toekomstige ontwikkelingen op gebied van de standaard</a></li></ol></li><li class="tocline"><a class="tocxref" href="#hoe-aansluiten-en-wie-biedt-ondersteuning"><bdi class="secno">8. </bdi>Hoe aansluiten en wie biedt ondersteuning?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#aansluitprocedure"><bdi class="secno">8.1 </bdi>Aansluitprocedure</a></li><li class="tocline"><a class="tocxref" href="#welke-ondersteuning-biedt-logius"><bdi class="secno">8.2 </bdi>Welke ondersteuning biedt Logius?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#contact-met-het-servicecentrum"><bdi class="secno">8.2.1 </bdi>Contact met het Servicecentrum</a></li><li class="tocline"><a class="tocxref" href="#digikoppeling-community"><bdi class="secno">8.2.2 </bdi>Digikoppeling community</a></li></ol></li><li class="tocline"><a class="tocxref" href="#welke-ondersteuning-bieden-leveranciers"><bdi class="secno">8.3 </bdi>Welke ondersteuning bieden leveranciers?</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#wat-kan-van-een-leverancier-verwacht-worden-om-minimaal-te-leveren"><bdi class="secno">8.3.1 </bdi>Wat kan van een leverancier verwacht worden om minimaal te leveren?</a></li></ol></li><li class="tocline"><a class="tocxref" href="#king-en-logius-markscan-digikoppeling"><bdi class="secno">8.4 </bdi>KING en Logius: Markscan Digikoppeling</a></li></ol></li><li class="tocline"><a class="tocxref" href="#wie-is-de-eigenaar-en-beheerder-van-de-standaard"><bdi class="secno">9. </bdi>Wie is de eigenaar en beheerder van de standaard?</a></li><li class="tocline"><a class="tocxref" href="#conformance"><bdi class="secno">10. </bdi>Conformiteit</a></li><li class="tocline"><a class="tocxref" href="#tof"><bdi class="secno">11. </bdi>Lijst met figuren</a></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
     <section class="introductory"><h1>Documentbeheer</h1>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th>Datum</th>
@@ -307,7 +306,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <td>Aanpassen versionering</td>
 </tr>
 <tr>
-<td>1/04/22</td>
+<td>11/04/22</td>
 <td>1.1.2</td>
 <td>Logius</td>
 <td>Toevoegen REST-API Koppelvlak</td>
@@ -315,7 +314,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </tbody></table>
 </section>
     <section class="introductory"><h1>Colofon</h1>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th></th>
@@ -334,7 +333,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>Dit document is bedoeld om een algemene toelichting te geven over Digikoppeling en het gebruik ervan.</p>
 </section><section id="leeswijzer"><div class="header-wrapper"><h3 id="x1-2-leeswijzer"><bdi class="secno">1.2 </bdi>Leeswijzer</h3><a class="self-link" href="#leeswijzer" aria-label="Permalink for Section 1.2"></a></div>
 <p>In de volgende hoofdstukken wordt antwoord gegeven op de vragen:</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th>Hoofdstuk 2</th>
@@ -374,7 +373,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p><sup>1</sup>: Met “vx.x” wordt de laatst gepubliceerde versie op de Logius website bedoeld.</p>
 <p>Documenten of bronnen die relevant zijn om te raadplegen voor “meer informatie” worden aan het einde van een paragraaf opgesomd.</p>
 </section><section id="doelgroep-van-dit-document"><div class="header-wrapper"><h3 id="x1-3-doelgroep-van-dit-document"><bdi class="secno">1.3 </bdi>Doelgroep van dit document</h3><a class="self-link" href="#doelgroep-van-dit-document" aria-label="Permalink for Section 1.3"></a></div>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th>Afkorting</th>
@@ -438,8 +437,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </section><section id="gebruik-van-digikoppeling-door-semi-overheidsorganisaties"><div class="header-wrapper"><h4 id="x2-3-2-gebruik-van-digikoppeling-door-semi-overheidsorganisaties"><bdi class="secno">2.3.2 </bdi>Gebruik van Digikoppeling door (semi-)overheidsorganisaties</h4><a class="self-link" href="#gebruik-van-digikoppeling-door-semi-overheidsorganisaties" aria-label="Permalink for Section 2.3.2"></a></div>
 <p>Figuur 1 geeft de plaats van Digikoppeling weer. Digikoppeling legt een verbinding tussen applicaties van de interne organisatie met een (of meer) externe organisaties zodat berichten kunnen worden uitgewisseld. Een organisatie kan een service aanbieden (de “serviceaanbieder” zoals een houder van een basisregistratie), of een service afnemen (de “serviceafnemer” zoals een gemeente, waterschap, rijksdienst of ZBO). Een Enterprise Servicebus of andere routeringsfunctionaliteit verzorgt de berichtuitwisseling tussen de Digikoppeling adapter en lokale applicaties. De berichtuitwisseling met een externe partij kan rechtstreeks of via een intermediair verlopen. De Digikoppeling-adapter vereist een technisch contract voor de berichtuitwisseling in een zogeheten CPA (zie §5.2) of WSDL (zie §5.3) en een PKIoverheids-certificaat in verband met informatiebeveiliging.</p>
 <p>Een serviceregister en voorzieningen (de groene blokken) zijn beschikbaar voor het implementatieproces.</p>
-<p><figure id="fig-gebruik-van-digikoppeling-door-overheids-organisaties"><img src="media/gebruik_van_digikoppeling_door_overheidsorganisaties.png" alt="Gebruik van Digikoppeling door (overheids)organisaties: Digikoppeling verbindt serviceafnemers met serviceaanbieders via Digikoppeling adapters" title="Gebruik van Digikoppeling door (overheids)organisaties"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Gebruik van Digikoppeling door (overheids)organisaties</span></figcaption></figure></p>
-<table>
+<p><figure id="fig-gebruik-van-digikoppeling-door-overheids-organisaties"><img src="media/gebruik_van_digikoppeling_door_overheidsorganisaties.png" alt="Gebruik van Digikoppeling door (overheids)organisaties: Digikoppeling verbindt serviceafnemers met serviceaanbieders via Digikoppeling adapters" title="Gebruik van Digikoppeling door (overheids)organisaties" height="579" width="670"><figcaption>Figuur <bdi class="figno">1</bdi> <span class="fig-title">Gebruik van Digikoppeling door (overheids)organisaties</span></figcaption></figure></p>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -498,7 +497,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p><sup>2</sup>: Een specifieke invulling van een van de Digikoppeling koppelvlakstandaarden die een groep functionele eisen invult. Een koppelvlakstandaard kan daardoor meerdere varianten van communicatie bieden. Het betreft functionele eisen op gebied van betrouwbaarheid, veiligheid en performance.</p>
 </section><section id="identificatie-en-authenticatie"><div class="header-wrapper"><h4 id="x2-4-2-identificatie-en-authenticatie"><bdi class="secno">2.4.2 </bdi>Identificatie en Authenticatie</h4><a class="self-link" href="#identificatie-en-authenticatie" aria-label="Permalink for Section 2.4.2"></a></div>
 <p>Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging afspraken gemaakt over de Identificatie en Authenticatie van partijen en het gebruik van certificaten. In de documenten <em>Digikoppeling Identificatie en Authenticatie</em> en <em>Digikoppeling Gebruik en Achtergronden Certificaten</em> worden de afspraken nader gespecificeerd. Voor gebruik van REST API koppelvlakken is de OAuth standaard van belang. Het Nederlandse profiel daarop is beschreven in <em>NL GOV Assurance profile for OAuth 2.0</em> en <em>NL GOV Assurance profile for OpenID Connect</em>.</p>
-<p><figure id="fig-opbouw-documentatie-digikoppeling"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Opbouw documentatie Digikoppeling"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">Opbouw documentatie Digikoppeling</span></figcaption></figure></p>
+<p><figure id="fig-opbouw-documentatie-digikoppeling"><img src="media/DK_Specificatie_structuur.svg" alt="Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen" title="Opbouw documentatie Digikoppeling" height="837" width="1327"><figcaption>Figuur <bdi class="figno">2</bdi> <span class="fig-title">Opbouw documentatie Digikoppeling</span></figcaption></figure></p>
 <details>
     <summary> Tekstalternatief </summary>
 <ul>
@@ -549,7 +548,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 
 
 <p>De Digikoppeling standaarden (zie Figuur 2) zijn nader uitwerkt in verschillende documenten. In Tabel 2 staat een overzicht om welke documenten het gaat en is kort toegelicht wat deze beschrijven.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Document</strong></th>
@@ -608,16 +607,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li><p>Figuur 3 geeft een grafische weergave van de voordelen.</p>
 </li>
 </ul>
-<p><figure id="fig-voordelen-op-een-rij-wanneer-gegevensuitwisseling-met-digikoppeling-plaatsvindt"><img src="media/voordelen_op_een_rij.png" alt="De voordelen van gebruik van Digikoppeling zijn: een slimmer proces door het maken van logistieke afspraken, betere dienstverlening door het gemakkelijker en sneller delen van informatie door overheden en slimmer beheer door eenmalige implementatie en meervoudig gebruik." title="Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt</span></figcaption></figure></p>
-<p><del>## Besparingen binnen het stelsel van Basisregistraties</del></p>
-<p><del>In 2010 heeft PriceWaterhouseCoopers (PWC) de meerwaarde onderzocht<sup>3</sup> van de gemeenschappelijke stelselvoorzieningen die de verplichte uitwisseling van gegevens tussen bronhouder en afnemer uit 13 landelijke registraties ondersteunen. De business case stelt dat:</del></p>
-<p><del><sup>3</sup>: Verfijning en herijking kosten- batenanalyse voor investeringen in gemeenschappelijke voorzieningen in het stelsel van basisregistraties: Grip op centrale en decentrale investeringen en kosten maximaliseert de businesscase, 23 februari 2010.</del></p>
-<p><del><em>‘Met de ontwikkeling van gemeenschappelijke voorzieningen wordt redundantie in investeringen en kosten in het stelsel voorkomen doordat faciliteiten gemeenschappelijk worden ontwikkeld en toegepast. De baten van de business case zijn vermeden kosten en investeringen”.</em></del></p>
-<p><del>Voor Digikoppeling is het geraamde netto voordeel 560 miljoen euro over 10 jaar voor gebruik binnen het stelsel van basisregistraties. Het gebruik daarbuiten is nog groter.</del></p>
-<p><del>Een aandachtspunt is de adoptie van de standaarden en voorzieningen. Wanneer meer organisaties Digikoppeling gaan gebruiken, is de winst in termen van tijd, geld en snelheid voor alle partijen groter.</del></p>
-<p><del>| <strong>Meer informatie</strong> | <strong>Zie</strong> |
-|---|---|
-| Rapport PWC | Verfijning en herijking kosten-batenanalyse voor investeringen ingemeenschappelijke voorzieningen inhet stelsel van basisregistraties (Referentie 2010-0430/ADB/mh/ms/wb) |</del></p>
+<p><figure id="fig-voordelen-op-een-rij-wanneer-gegevensuitwisseling-met-digikoppeling-plaatsvindt"><img src="media/voordelen_op_een_rij.png" alt="De voordelen van gebruik van Digikoppeling zijn: een slimmer proces door het maken van logistieke afspraken, betere dienstverlening door het gemakkelijker en sneller delen van informatie door overheden en slimmer beheer door eenmalige implementatie en meervoudig gebruik." title="Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt" height="338" width="862"><figcaption>Figuur <bdi class="figno">3</bdi> <span class="fig-title">Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt</span></figcaption></figure></p>
 </section></section>
 <section id="wanneer-digikoppeling-gebruiken"><div class="header-wrapper"><h2 id="x4-wanneer-digikoppeling-gebruiken"><bdi class="secno">4. </bdi>Wanneer Digikoppeling gebruiken?</h2><a class="self-link" href="#wanneer-digikoppeling-gebruiken" aria-label="Permalink for Section 4."></a></div>
 <section id="wanneer-verplicht-gebruik-van-digikoppeling"><div class="header-wrapper"><h3 id="x4-1-wanneer-verplicht-gebruik-van-digikoppeling"><bdi class="secno">4.1 </bdi>Wanneer verplicht gebruik van Digikoppeling?</h3><a class="self-link" href="#wanneer-verplicht-gebruik-van-digikoppeling" aria-label="Permalink for Section 4.1"></a></div>
@@ -630,7 +620,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>Het organisatorisch werkingsgebied beschrijft de overheden die verplicht zijn om Digikoppeling te gebruiken voor een bepaald doel, in dit geval berichtenverkeer met basisregistraties en sectoroverstijgend berichtenverkeer. In de praktijk wordt Digikoppeling ook door vele organisaties buiten dit domein gebruikt en in sommige sectoren ook voor het sectorale verkeer. De landelijke eOverheidsvoorzieningen maken tevens gebruik van Digikoppeling voor het berichtenverkeer met hun afnemers.</p>
 </section><section id="bredere-toepassing-buiten-de-publieke-overheid-mogelijk"><div class="header-wrapper"><h3 id="x4-2-bredere-toepassing-buiten-de-publieke-overheid-mogelijk"><bdi class="secno">4.2 </bdi>Bredere toepassing buiten de (publieke) overheid mogelijk</h3><a class="self-link" href="#bredere-toepassing-buiten-de-publieke-overheid-mogelijk" aria-label="Permalink for Section 4.2"></a></div>
 <p>Ook andere organisaties, zoals private organisaties, kunnen baat hebben bij gebruik van Digikoppeling. De standaard is dan ook voor elke organisatie beschikbaar om te gebruiken. Gedacht kan worden aan uitwisseling van berichten tussen bijvoorbeeld een gemeente en particulier bedrijf. Om een aansluiting met Digikoppeling te realiseren is het volgen van de aansluitprocedure noodzakelijk.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -657,13 +647,13 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>Betreft het stellen van een vraag en vervolgens het ontvangen van een antwoord. Een serviceafnemer<sup>4</sup> is de initiator van een bevraging. Zie Figuur 4.</p>
 <p><sup>4</sup>: Een partij kan een service aanbieden – in de rol van serviceaanbieder – of een service afnemen – in de rol van serviceafnemer.</p>
 <p>Voorbeeld in een dagelijkse situatie: Het opvragen van het banksaldo via internetbankieren is een bevraging. De bank zal na ontvangst van de vraag om het saldo van de rekening in te zien een antwoord teruggeven.</p>
-<p><figure id="fig-berichtuitwisseling-bij-bevragingen"><img src="media/berichtuitwisseling_bij_bevragingen.png" alt="Bij een Digikoppeling bevragingen stuurt een serviceafnemer een bevraging naar een serviceaanbieder en krijgt een antwoord terug." title="Berichtuitwisseling bij Bevragingen"><figcaption>Figuur <bdi class="figno">4</bdi> <span class="fig-title">Berichtuitwisseling bij Bevragingen</span></figcaption></figure></p>
+<p><figure id="fig-berichtuitwisseling-bij-bevragingen"><img src="media/berichtuitwisseling_bij_bevragingen.png" alt="Bij een Digikoppeling bevragingen stuurt een serviceafnemer een bevraging naar een serviceaanbieder en krijgt een antwoord terug." title="Berichtuitwisseling bij Bevragingen" height="171" width="630"><figcaption>Figuur <bdi class="figno">4</bdi> <span class="fig-title">Berichtuitwisseling bij Bevragingen</span></figcaption></figure></p>
 <p>Voor een bevraging is vereist dat de service op het moment van bevraging beschikbaar is. Er is sprake van een “best effort” want een antwoord op een bevraging kan bewust of om technische redenen niet altijd plaatsvinden. Bevragingen kunnen rechtstreeks of via een intermediair verlopen. Meer informatie, zie §5.3.</p>
 </section><section id="meldingen"><div class="header-wrapper"><h4 id="x5-1-2-meldingen"><bdi class="secno">5.1.2 </bdi>Meldingen</h4><a class="self-link" href="#meldingen" aria-label="Permalink for Section 5.1.2"></a></div>
 <p>Betreft het verzenden van een bericht naar een ontvanger waarbij het essentieel is te weten dat het bericht goed ontvangen is middels een bevestiging. Zowel een serviceaanbieder<sup>5</sup> als een serviceafnemer kunnen initiator zijn van een melding. Meldingen kunnen rechtstreeks of via een intermediair verlopen. Zie Figuur 5.</p>
 <p><sup>5</sup>: Een partij kan een service aanbieden – in de rol van serviceaanbieder – of een service afnemen – in de rol van serviceafnemer.</p>
 <p>Voorbeeld in een dagelijkse situatie: Bij de bank wordt een bedrag bijgeboekt op de eigen rekening. De transactie die heeft plaatsgevonden wordt aan de betrokken rekeninghouders teruggekoppeld met een melding over de bijschrijving en een melding aan de andere rekeninghouder over de afboeking. Hier is sprake van een “reliable message” want er kan nooit een afboeking plaatsvinden zonder een bijschrijving en vice versa.</p>
-<p><figure id="fig-berichtuitwisseling-bij-meldingen"><img src="media/berichtuitwisseling_bij_meldingen.png" alt="Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer verstuurd worden." title="Berichtuitwisseling bij Meldingen"><figcaption>Figuur <bdi class="figno">5</bdi> <span class="fig-title">Berichtuitwisseling bij Meldingen</span></figcaption></figure></p>
+<p><figure id="fig-berichtuitwisseling-bij-meldingen"><img src="media/berichtuitwisseling_bij_meldingen.png" alt="Bij een Digikoppeling melding verstuurt een serviceaanbieder of afnemer een melding en krijgt een bevestiging terug. Een melding kan dus zowel door een aanbieder als door een afnemer verstuurd worden." title="Berichtuitwisseling bij Meldingen" height="349" width="630"><figcaption>Figuur <bdi class="figno">5</bdi> <span class="fig-title">Berichtuitwisseling bij Meldingen</span></figcaption></figure></p>
 </section><section id="omgaan-met-grote-berichten-gb"><div class="header-wrapper"><h4 id="x5-1-3-omgaan-met-grote-berichten-gb"><bdi class="secno">5.1.3 </bdi>Omgaan met Grote Berichten (GB)</h4><a class="self-link" href="#omgaan-met-grote-berichten-gb" aria-label="Permalink for Section 5.1.3"></a></div>
 <p>Berichten (Bevragingen of Meldingen) die een grootte hebben van meer dan 20 MiB<sup>6</sup> kunnen op een andere wijze worden uitgewisseld. Hiervoor gelden specifieke afspraken. Deze zijn vastgelegd in het koppelvlakstandaard Grote Berichten. Meer informatie, zie §5.4.</p>
 <p><sup>6</sup>: 1 MiB=1024^2 bytes : Voorheen stond hier 20MB. We gebruiken de term MiB om geen enkele verwarring te scheppen over de drempelwaarde. Het verschil tussen 20Mb en 20Mib is echter te verwaarlozen.</p>
@@ -694,7 +684,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li><p>Multi-distributie – grote hoeveelheid gegevens aan meerdere ontvangers versturen.</p>
 </li>
 </ul>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -774,7 +764,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>Een CPA is een formeel xml-document om de gebruikte functionele en technische eigenschappen van de ebMS2 protocol-karakteristieken vast te leggen. Het is dus een formele beschrijving voor het uniform instellen van de gegevensuitwisseling. Een CPA moet worden gecreëerd als twee partijen afspreken om van elkaars ebMS2 services gebruik te maken. Beide partijen moeten de CPA importeren in hun Digikoppeling-adapter om deze te configureren voor de berichtuitwisseling. De wijze waarop een CPA wordt toegepast staat beschreven in Digikoppeling Best Practices ebMS2. Het CPA register ondersteunt partijen in het creëren van een CPA.</p>
 </section><section id="ebms2-voor-vragen-met-een-uitgesteld-antwoord"><div class="header-wrapper"><h4 id="x5-3-4-ebms2-voor-vragen-met-een-uitgesteld-antwoord"><bdi class="secno">5.3.4 </bdi>ebMS2 voor vragen met een uitgesteld antwoord</h4><a class="self-link" href="#ebms2-voor-vragen-met-een-uitgesteld-antwoord" aria-label="Permalink for Section 5.3.4"></a></div>
 <p>In sommige sectoren wordt een vraag verstuurd met ebMS2 en komt het (uitgestelde) antwoord ook via ebMS2 retour. Deze vorm van uitwisseling is asynchroon en voldoet dus niet aan de definitie voor bevragingen, omdat een bevraging synchroon is. Digikoppeling biedt hiervoor meldingen (ook ingeval van WUS). Bij dit type gebruik is de betrouwbaarheid eigenlijk overbodig. Het ebMS2 best effort profiel van de koppelvlakstandaard ebMS2 kan ook voor dit type vragen met uitgestelde antwoorden worden gebruikt, als partijen dit onderling afspreken. Dit gebruik wordt niet op landelijk of intersectoraal niveau toegestaan en is dus uitsluitend optioneel binnen sectoren.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie over:</strong></th>
@@ -826,7 +816,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </section><section id="wsdl"><div class="header-wrapper"><h4 id="x5-4-3-wsdl"><bdi class="secno">5.4.3 </bdi>WSDL</h4><a class="self-link" href="#wsdl" aria-label="Permalink for Section 5.4.3"></a></div>
 <p>Een WSDL is een formeel xml-document om de gebruikte functionele en technische eigenschappen van de berichtuitwisseling via WUS vast te leggen. Elke service heeft één WSDL, die door de serviceaanbieder wordt opgesteld. Deze is door alle afnemers te gebruiken. Door importeren van de WSDL in de Digikoppeling-adapter van een afnemer wordt de berichtuitwisseling geconfigureerd.</p>
 <p>De wijze waarop een WSDL wordt toegepast staat beschreven in Digikoppeling Best Practices WUS.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie over:</strong></th>
@@ -877,7 +867,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <li><p>Optioneel beperkte tijdsperiode om bestand beschikbaar te stellen.</p>
 </li>
 </ul>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie over:</strong></th>
@@ -901,7 +891,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p>Digikoppeling schrijft het gebruik van PKIoverheidcertificaten met een OIN<sup>15</sup> voor om de identiteit van een website of server te controleren (authenticatie). Voor het opzetten van een beveiligde verbinding tussen servers en voor de ondertekening en versleuteling van berichten moet het OIN van de organisatie in de PKIoverheidcertificaten worden opgenomen. Elke overheidsorganisatie die digitaal zaken doet kan een uniek Organisatieidentificatienummer (OIN) krijgen.</p>
 <p><sup>15</sup>: Nadere informatie over aanvragen van een OIN en gebruik in combinatie met PKIOverheid certificaat wordt apart beschreven, zie de tabel met “meer informatie”.</p>
 <p>Uitgangspunten en principes voor identificatie- en authenticatieafspraken zijn beschreven in het document <em>Identificatie en Authenticatie</em>. Het gaat in op de identificatie van partijen, het opzetten van een tweezijdige beveiligde TLS-verbinding en het ondertekenen en versleutelen van berichten en bijlagen. De uitgangspunten en principes zijn onafhankelijk van de te gebruiken protocolfamilie, dat wil zeggen dat ze bij ebMS2 en WUS (functioneel) gelijk zijn.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie over:</strong></th>
@@ -962,11 +952,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </li>
 </ul>
 <p>Een intermediair zoals een sectoraal knooppunt kan in opdracht van partijen inhoudelijke bewerkingen op berichten uitvoeren zoals de integratie, conversie en distributie van gegevens. Een dergelijke ondersteunende rol kan partijen ontzorgen bij de implementatie van standaarden, het beheer van gedeelde / gezamenlijke voorzieningen en de afstemming tussen partijen op het gebied van gegevensuitwisseling.</p>
-<p><figure id="fig-berichtuitwisseling-met-intermediair-tussen-serviceaanbieder-en-serviceafnemer"><img src="media/berichtuitwisseling_met_intermediair.png" alt=" Bij berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer loopt al het berichtenverkeer tussen verschillende aanbieders en afnemers via een intermediair." title="Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer"><figcaption>Figuur <bdi class="figno">6</bdi> <span class="fig-title">Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer</span></figcaption></figure></p>
-<p><figure id="fig-berichtuitwisseling-zonder-intermediair"><img src="media/berichtuitwisseling_zonder_intermediair.png" alt="Bij berichtuitwisseling zonder intermediair wisselen verschillende afnemers en aanbieders direct berichten uit." title="Berichtuitwisseling zonder intermediair"><figcaption>Figuur <bdi class="figno">7</bdi> <span class="fig-title">Berichtuitwisseling zonder intermediair</span></figcaption></figure></p>
+<p><figure id="fig-berichtuitwisseling-met-intermediair-tussen-serviceaanbieder-en-serviceafnemer"><img src="media/berichtuitwisseling_met_intermediair.png" alt=" Bij berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer loopt al het berichtenverkeer tussen verschillende aanbieders en afnemers via een intermediair." title="Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer" height="502" width="624"><figcaption>Figuur <bdi class="figno">6</bdi> <span class="fig-title">Berichtuitwisseling met intermediair tussen serviceaanbieder en serviceafnemer</span></figcaption></figure></p>
+<p><figure id="fig-berichtuitwisseling-zonder-intermediair"><img src="media/berichtuitwisseling_zonder_intermediair.png" alt="Bij berichtuitwisseling zonder intermediair wisselen verschillende afnemers en aanbieders direct berichten uit." title="Berichtuitwisseling zonder intermediair" height="335" width="465"><figcaption>Figuur <bdi class="figno">7</bdi> <span class="fig-title">Berichtuitwisseling zonder intermediair</span></figcaption></figure></p>
 </section><section id="componenten-in-de-logistieke-digikoppeling-keten"><div class="header-wrapper"><h4 id="x5-7-3-componenten-in-de-logistieke-digikoppeling-keten"><bdi class="secno">5.7.3 </bdi>Componenten in de logistieke Digikoppeling-keten</h4><a class="self-link" href="#componenten-in-de-logistieke-digikoppeling-keten" aria-label="Permalink for Section 5.7.3"></a></div>
 <p>Op een hoog abstractieniveau maken de volgende componenten onderdeel uit van de Digikoppeling-keten van berichtuitwisseling.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Componenten</strong></th>
@@ -1001,7 +991,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 <p><sup>16</sup>: Collaboration Protocol Agreement: Servicecontract voor ebMS services.</p>
 <p><sup>17</sup>: Servicecontract voor WUS services.</p>
 <p>Tabel 3: Componenten van de Digikoppeling-keten.<br>In het document “Voorbeelden van generieke inrichtingen met Digikoppeling” worden een aantal varianten van inrichtingen met bovenstaande componenten weergegeven.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -1026,11 +1016,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
 </ul>
 <section id="bilaterale-uitwisseling-tussen-partijen"><div class="header-wrapper"><h4 id="x5-8-1-bilaterale-uitwisseling-tussen-partijen"><bdi class="secno">5.8.1 </bdi>Bilaterale uitwisseling tussen partijen</h4><a class="self-link" href="#bilaterale-uitwisseling-tussen-partijen" aria-label="Permalink for Section 5.8.1"></a></div>
 <p>In het eenvoudigste ‘patroon’ gebruiken de serviceaanbieder en serviceafnemer Digikoppeling rechtstreeks voor bevragingen of meldingen, eventueel in combinatie met grote berichten. Partijen stellen samen een (technisch) servicecontract op dat ingelezen kan worden in de eigen Digikoppeling-adapter. Zie Figuur 7.</p>
-<p><figure id="fig-bilaterale-uitwisseling"><img src="media/bilaterale_uitwisseling.png" alt="Bij bilaterale uitwisseling wordt berichtenverkeer tussen afnemer en aanbieder direct ingericht." title="Bilaterale uitwisseling"><figcaption>Figuur <bdi class="figno">8</bdi> <span class="fig-title">Bilaterale uitwisseling</span></figcaption></figure></p>
+<p><figure id="fig-bilaterale-uitwisseling"><img src="media/bilaterale_uitwisseling.png" alt="Bij bilaterale uitwisseling wordt berichtenverkeer tussen afnemer en aanbieder direct ingericht." title="Bilaterale uitwisseling" height="318" width="703"><figcaption>Figuur <bdi class="figno">8</bdi> <span class="fig-title">Bilaterale uitwisseling</span></figcaption></figure></p>
 </section><section id="bilaterale-uitwisseling-via-een-transparante-intermediair"><div class="header-wrapper"><h4 id="x5-8-2-bilaterale-uitwisseling-via-een-transparante-intermediair"><bdi class="secno">5.8.2 </bdi>Bilaterale uitwisseling via een transparante intermediair</h4><a class="self-link" href="#bilaterale-uitwisseling-via-een-transparante-intermediair" aria-label="Permalink for Section 5.8.2"></a></div>
 <p>Een transparante keten<sup>18</sup> is alleen mogelijk als zowel de serviceaanbieder als de serviceafnemer hetzelfde protocol hanteren. De intermediair routeert berichten tussen de serviceaanbieder en de serviceafnemer waarbij het bericht intact blijft (alleen de ‘header’, ofwel adresregel op de envelop, wordt gelezen). De uitwisseling verloopt op dezelfde manier als bij een bilaterale uitwisseling. Zie Figuur 8.</p>
 <p><sup>18</sup>: Zonder wijziging aan berichten.</p>
-<p><figure id="fig-uitwisseling-via-transparante-intermediair"><img src="media/uitwisseling_via_transparante_intermediair.png" alt="Bij uitwisseling via transparante intermediair verloopt het berichtenverkeer tussen aanbieder en afnemer via een intermediair waarbij het bericht intakt blijft." title="Uitwisseling via transparante intermediair"><figcaption>Figuur <bdi class="figno">9</bdi> <span class="fig-title">Uitwisseling via transparante intermediair</span></figcaption></figure></p>
+<p><figure id="fig-uitwisseling-via-transparante-intermediair"><img src="media/uitwisseling_via_transparante_intermediair.png" alt="Bij uitwisseling via transparante intermediair verloopt het berichtenverkeer tussen aanbieder en afnemer via een intermediair waarbij het bericht intakt blijft." title="Uitwisseling via transparante intermediair" height="293" width="749"><figcaption>Figuur <bdi class="figno">9</bdi> <span class="fig-title">Uitwisseling via transparante intermediair</span></figcaption></figure></p>
 </section></section></section>
 <section id="waaraan-koppelen"><div class="header-wrapper"><h2 id="x6-waaraan-koppelen"><bdi class="secno">6. </bdi>Waaraan koppelen?</h2><a class="self-link" href="#waaraan-koppelen" aria-label="Permalink for Section 6."></a></div>
 <p>Digikoppeling is een standaard voor elektronisch berichtenverkeer binnen de overheid. De Digikoppeling standaard vormt de basis voor de Stelselvoorzieningen die in het kader van gegevensuitwisseling tussen basisregistraties en haar afnemers zijn ontwikkeld. Maar ook voor aansluiting op andere e-overheidsbouwstenen is de implementatie van Digikoppeling binnen uw organisatie randvoorwaardelijk.</p>
@@ -1066,7 +1056,7 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 <ol start="4">
 <li>Meta-informatie: Twee voorzieningen leveren informatie over de diensten en gegevens van de basisregistraties. De Stelselcatalogus is een online catalogus die de structuur van het Stelsel van Basisregistraties en de definities van begrippen, (authentieke) gegevens en feiten beschrijft. Met die informatie kunnen gebruikers gegevens uit de basisregistratie(s) eenvoudig inpassen in hun eigen werkprocessen. Het Serviceregister biedt een overzicht van alle diensten die worden aangeboden op basis van Digikoppeling, waaronder dus de basisregistraties.</li>
 </ol>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -1092,7 +1082,7 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 </tbody></table>
 </section><section id="aansluiten-op-landelijke-voorzieningen"><div class="header-wrapper"><h3 id="x6-2-aansluiten-op-landelijke-voorzieningen"><bdi class="secno">6.2 </bdi>Aansluiten op Landelijke Voorzieningen</h3><a class="self-link" href="#aansluiten-op-landelijke-voorzieningen" aria-label="Permalink for Section 6.2"></a></div>
 <p>Met één Digikoppeling-implementatie kunt u berichten uitwisselen met alle overheden en aansluiten op Basisregistraties en Landelijke Voorzieningen. Zie de Logius website voor een overzicht van de diverse Landelijke Voorzieningen. Een belangrijk deel is beschikbaar om op aan te sluiten zoals bijvoorbeeld: LV-WOZ, MijnOverheid Lopende zaken en Berichtenbox, e-factureren. Informeer bij de aanbieder van de Landelijke Voorziening naar de laatste stand van zaken omtrent beschikbaarheid.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -1146,7 +1136,7 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 </li>
 </ul>
 <p>Een antwoord is voor elke organisatie maatwerk. Maar meestal heeft een organisatie zowel bevragingen als meldingen nodig. Aangeraden wordt om een specialist op dit gebied te bevragen. Ook is het mogelijk om onafhankelijk advies te vragen aan partijen als KING, LOGIUS, de ICTU, in de markt of bij soortgelijke overheidsdiensten.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -1202,7 +1192,7 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 <section id="hoe-aansluiten-en-wie-biedt-ondersteuning"><div class="header-wrapper"><h2 id="x8-hoe-aansluiten-en-wie-biedt-ondersteuning"><bdi class="secno">8. </bdi>Hoe aansluiten en wie biedt ondersteuning?</h2><a class="self-link" href="#hoe-aansluiten-en-wie-biedt-ondersteuning" aria-label="Permalink for Section 8."></a></div>
 <section id="aansluitprocedure"><div class="header-wrapper"><h3 id="x8-1-aansluitprocedure"><bdi class="secno">8.1 </bdi>Aansluitprocedure</h3><a class="self-link" href="#aansluitprocedure" aria-label="Permalink for Section 8.1"></a></div>
 <p>De Leeswijzer beschrijft de aansluitprocedure om Digikoppeling te implementeren. Het is een hulpmiddel voor organisaties. De aansluitprocedure bestaat uit een aantal fases en stappen die uitgewerkt zijn. Het document is onderdeel van de aansluitkit voor Digikoppeling.</p>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
@@ -1265,7 +1255,7 @@ Een uitwerking van de generieke voorzieningen van het stelsel is hieronder opgen
 <li><p>Testen van de koppeling in de keten.</p>
 </li>
 </ul>
-<table>
+<table class="simple">
 <thead>
 <tr>
 <th><strong>Meer informatie</strong></th>
