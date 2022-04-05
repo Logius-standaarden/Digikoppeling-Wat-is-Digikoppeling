@@ -22,18 +22,18 @@ De toepassing van Digikoppeling heeft enkele grote voordelen:
 
 ![De voordelen van gebruik van Digikoppeling zijn: een slimmer proces door het maken van logistieke afspraken, betere dienstverlening door het gemakkelijker en sneller delen van informatie door overheden en slimmer beheer door eenmalige implementatie en meervoudig gebruik.](media/voordelen_op_een_rij.png "Voordelen op een rij wanneer gegevensuitwisseling met Digikoppeling plaatsvindt")
 
-## Besparingen binnen het stelsel van Basisregistraties
+~~## Besparingen binnen het stelsel van Basisregistraties~~
 
-In 2010 heeft PriceWaterhouseCoopers (PWC) de meerwaarde onderzocht<sup>3</sup> van de gemeenschappelijke stelselvoorzieningen die de verplichte uitwisseling van gegevens tussen bronhouder en afnemer uit 13 landelijke registraties ondersteunen. De business case stelt dat:
+~~In 2010 heeft PriceWaterhouseCoopers (PWC) de meerwaarde onderzocht<sup>3</sup> van de gemeenschappelijke stelselvoorzieningen die de verplichte uitwisseling van gegevens tussen bronhouder en afnemer uit 13 landelijke registraties ondersteunen. De business case stelt dat:~~
 
-<sup>3</sup>: Verfijning en herijking kosten- batenanalyse voor investeringen in gemeenschappelijke voorzieningen in het stelsel van basisregistraties: Grip op centrale en decentrale investeringen en kosten maximaliseert de businesscase, 23 februari 2010.
+~~<sup>3</sup>: Verfijning en herijking kosten- batenanalyse voor investeringen in gemeenschappelijke voorzieningen in het stelsel van basisregistraties: Grip op centrale en decentrale investeringen en kosten maximaliseert de businesscase, 23 februari 2010.~~
 
-*‘Met de ontwikkeling van gemeenschappelijke voorzieningen wordt redundantie in investeringen en kosten in het stelsel voorkomen doordat faciliteiten gemeenschappelijk worden ontwikkeld en toegepast. De baten van de business case zijn vermeden kosten en investeringen”.*
+~~*‘Met de ontwikkeling van gemeenschappelijke voorzieningen wordt redundantie in investeringen en kosten in het stelsel voorkomen doordat faciliteiten gemeenschappelijk worden ontwikkeld en toegepast. De baten van de business case zijn vermeden kosten en investeringen”.*~~
 
-Voor Digikoppeling is het geraamde netto voordeel 560 miljoen euro over 10 jaar voor gebruik binnen het stelsel van basisregistraties. Het gebruik daarbuiten is nog groter.
+~~Voor Digikoppeling is het geraamde netto voordeel 560 miljoen euro over 10 jaar voor gebruik binnen het stelsel van basisregistraties. Het gebruik daarbuiten is nog groter.~~
 
-Een aandachtspunt is de adoptie van de standaarden en voorzieningen. Wanneer meer organisaties Digikoppeling gaan gebruiken, is de winst in termen van tijd, geld en snelheid voor alle partijen groter.
+~~Een aandachtspunt is de adoptie van de standaarden en voorzieningen. Wanneer meer organisaties Digikoppeling gaan gebruiken, is de winst in termen van tijd, geld en snelheid voor alle partijen groter.~~
 
-| **Meer informatie** | **Zie** |
+~~| **Meer informatie** | **Zie** |
 |---|---|
-| Rapport PWC | Verfijning en herijking kosten-batenanalyse voor investeringen ingemeenschappelijke voorzieningen inhet stelsel van basisregistraties (Referentie 2010-0430/ADB/mh/ms/wb) |
+| Rapport PWC | Verfijning en herijking kosten-batenanalyse voor investeringen ingemeenschappelijke voorzieningen inhet stelsel van basisregistraties (Referentie 2010-0430/ADB/mh/ms/wb) |~~
