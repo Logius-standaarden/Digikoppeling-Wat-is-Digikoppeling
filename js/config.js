@@ -181,17 +181,15 @@ var respecConfig = {
       publisher: "Nederlands Normalisatie-instituut",
     },
     "Digikoppeling Architectuur": {
-      href: "https://publicatie.centrumvoorstandaarden.nl/dk/architectuur/2.0vv/",
+      href: "https://publicatie.centrumvoorstandaarden.nl/dk/architectuur",
       title:
         "Digikoppeling Architectuur",
       authors: ["Logius Centrum voor standaarden"],
-      date: "december 2020",
       publisher: "Logius",
     },
     "Digikoppeling Beveiligingsdocument": {
-      href: "https://www.logius.nl/sites/default/files/bestanden/website/Digikoppeling_Beveiligingsstandaarden_en_voorschriften_v1.3.pdf",
+      href: "https://publicatie.centrumvoorstandaarden.nl/dk/beveilig",
       title: "Digikoppeling Beveiligingsstandaarden en voorschriften",
-      date: "2020",
       publisher: "Logius",
     },
     "Digikoppeling-Cert": {
