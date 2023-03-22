@@ -25,6 +25,7 @@ var respecConfig = {
   pubDomain: "dk",
   publishDate: "2022-04-11",
   publishVersion: "1.1.2",
+  previousPublishVersion: "1.1.1",
   shortName: "watisdk",
   specStatus: "DEF",
   specType: "HR"
