@@ -44,7 +44,7 @@ Met één Digikoppeling-implementatie kunt u berichten uitwisselen met alle over
 
 | **Meer informatie** | **Zie** | **Doelgroep** |
 |---|---|---|
-| Over landelijke voorzieningen | [[?Digikoppeling Architectuur]] | [A&D] [OT&B]  |
+| Over landelijke voorzieningen | [[?Digikoppeling-Architectuur]] | [A&D] [OT&B]  |
 
 ## Betrokken partijen in het Stelseldomein
 

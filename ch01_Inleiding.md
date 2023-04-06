@@ -17,7 +17,7 @@ In de volgende hoofdstukken wordt antwoord gegeven op de vragen:
 | Hoofdstuk 8 | Hoe aansluiten en wie biedt ondersteuning? Betreft aansluitprocedure en welke ondersteuning wordt geboden door Logius en leveranciers. |
 | Hoofdstuk 9 | Wie is de eigenaar en beheerder van de standaard? |
 
-Begrippen worden zoveel mogelijk in dit document uitgelegd. Maar een overzicht van begrippen en afkortingen staat in het document [[?Digikoppeling Architectuur]]<sup>1</sup>.
+Begrippen worden zoveel mogelijk in dit document uitgelegd. Maar een overzicht van begrippen en afkortingen staat in het document [[?Digikoppeling-Architectuur]]<sup>1</sup>.
 
 <sup>1</sup>: Met “vx.x” wordt de laatst gepubliceerde versie op de Logius website bedoeld.
 
