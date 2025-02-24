@@ -27,6 +27,6 @@ var respecConfig = {
   publishVersion: "1.1.2",
   previousPublishVersion: "1.1.1",
   shortName: "watisdk",
-  specStatus: "WV",
+  specStatus: "DEF",
   specType: "HR"
 };
