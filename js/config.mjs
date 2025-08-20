@@ -1,4 +1,6 @@
-var respecConfig = {
+import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
+
+loadRespecWithConfiguration({
   alternateFormats: [ { 
         "label" : "pdf",
         "uri" : "Digikoppeling-Wat-is-Digikoppeling.pdf"
@@ -29,4 +31,4 @@ var respecConfig = {
   shortName: "watisdk",
   specStatus: "WV",
   specType: "HR"
-};
+});
