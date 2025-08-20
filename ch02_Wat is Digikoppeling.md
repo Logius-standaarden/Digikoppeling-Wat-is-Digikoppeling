@@ -51,7 +51,7 @@ Een serviceregister en voorzieningen (de groene blokken) zijn beschikbaar voor h
 |---|---|---|
 | Over NORA in relatie tot Digikoppeling | Digikoppeling\_Architectuur (§2.2) | [A&D]  [OT&B] |
 | Link naar NORA | Online: [noraonline.nl](http://www.noraonline.nl/wiki/NORA_online) (link)  | |
-| Link naar European Interoperability Framework | Online: [EIF](http://ec.europa.eu/idabc/en/document/2319/5644.html) (link) | |
+| Link naar European Interoperability Framework | Online: [EIF](https://ec.europa.eu/isa2/sites/default/files/eif_brochure_final.pdf) (link) | |
 | Over hulpmiddelen: Serviceregister, compliance-voorzieningen en CPA register | Hulpmiddelen_bij\_implementatie | [PL] [A&D]  [OT&B] |
 
 
