@@ -5,8 +5,7 @@ loadRespecWithConfiguration({
         "label" : "pdf",
         "uri" : "Digikoppeling-Wat-is-Digikoppeling.pdf"
       } ],
-  authors: [ { 
-        "mailto" : "digikoppeling@logius.nl",
+  authors: [ {
         "name" : "Logius",
         "url" : "https://logius.nl/standaarden"
       } ],
