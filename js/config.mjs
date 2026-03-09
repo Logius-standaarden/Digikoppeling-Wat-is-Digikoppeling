@@ -1,10 +1,6 @@
 import { loadRespecWithConfiguration } from "https://logius-standaarden.github.io/publicatie/respec/organisation-config.mjs";
 
 loadRespecWithConfiguration({
-  alternateFormats: [ { 
-        "label" : "pdf",
-        "uri" : "Digikoppeling-Wat-is-Digikoppeling.pdf"
-      } ],
   authors: [ {
         "name" : "Logius",
         "url" : "https://logius.nl/standaarden"
