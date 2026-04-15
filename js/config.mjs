@@ -2,19 +2,20 @@ import { loadRespecWithConfiguration } from "https://logius-standaarden.github.i
 
 loadRespecWithConfiguration({
   authors: [ {
-        "name" : "Logius",
-        "url" : "https://logius.nl/standaarden"
+        "name" : "Peter Haasnoot",
+        "company" : "Logius",
+        "url" : "https://www.logius.nl"
       } ],
   editors: [ 
       { 
         "company" : "Logius",
         "name" : "Peter Haasnoot",
-        "url" : "https://logius.nl/standaarden"
+        "url" : "https://www.logius.nl"
       },
       { 
         "company" : "Logius",
         "name" : "Pieter Hering",
-        "url" : "https://logius.nl/standaarden"
+        "url" : "https://www.logius.nl"
       }
     ],
   github: "https://github.com/Logius-standaarden/Digikoppeling-Wat-is-Digikoppeling",
