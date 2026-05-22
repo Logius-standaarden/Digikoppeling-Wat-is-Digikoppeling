@@ -93,7 +93,7 @@ Vanwege interoperabiliteit, eenvoud en overzichtelijkheid onderscheidt Digikoppe
 
 ### Identificatie en Authenticatie
 
-Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging afspraken gemaakt over de Identificatie en Authenticatie van partijen en het gebruik van certificaten. In de documenten _Digikoppeling Identificatie en Authenticatie_ en _Digikoppeling Gebruik en Achtergronden Certificaten_ worden de afspraken nader gespecificeerd. Voor gebruik van REST API koppelvlakken is de OAuth standaard van belang. Het Nederlandse profiel daarop is beschreven in _NL GOV Assurance profile for OAuth 2.0_ en _NL GOV Assurance profile for OpenID Connect_.
+Voor de toepassing van Digikoppeling zijn in het kader van informatiebeveiliging afspraken gemaakt over de Identificatie en Authenticatie van partijen en het gebruik van certificaten. In de documenten _Digikoppeling Identificatie en Authenticatie_ en _Digikoppeling Gebruik en Achtergronden Certificaten_ worden de afspraken nader gespecificeerd. Voor gebruik van REST API koppelvlakken is de OAuth standaard van belang. Het Nederlandse profiel daarop is beschreven in _NLgov Assurance profile for OAuth 2.0_ en _NLgov Assurance profile for OpenID Connect_.
 
 <figure>
   <object data="https://logius-standaarden.github.io/publicatie/dk/actueel/media/DK_Specificatie_structuur.svg" type="image/svg+xml" id="infographic">Overzicht van de onderdelen van de Digikoppeling Standaard, de standaard is onderverdeeld in normatieve en ondersteunende onderdelen</object>
